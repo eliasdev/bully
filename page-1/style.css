@@ -1,0 +1,108 @@
+.inner-box {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+.colum-container {
+  width: 98%;
+  height: 32%;
+  position: absolute;
+  top: 1%;
+  left: 0%;
+  right: 0;
+  margin: 0 auto;
+  background: #ffffff;
+}
+.frame-1 {
+  width: 32%;
+  height: 100%;
+  bottom: 0%;
+  left: 0%;
+  border: 0.2em solid #000000;
+  background: #b0d3de;
+  position: absolute;
+  overflow: hidden;
+}
+.frame-1 img:nth-child(1){
+  width: 100%;
+  height: auto;
+  left: 0;
+}
+.frame-1 img:nth-child(2){
+
+}
+.frame-1 img:nth-child(3){
+
+}
+.frame-2 {
+  width: 32%;
+  height: 100%;
+  bottom: 0%;
+  right: 33.7%;
+  border: 0.2em solid #000000;
+  background: #b0d3de;
+  position: absolute;
+  overflow: hidden;
+}
+.frame-3 {
+  width: 32%;
+  height: 100%;
+  bottom: 0%;
+  right: 0%;
+  border: 0.2em solid #000000;
+  background: #b0d3de;
+  position: absolute;
+  overflow: hidden;
+}
+.content-frames {
+  width: 98%;
+  height: 32%;
+  position: absolute;
+  top: 33.5%;
+  left: 0%;
+  right: 0;
+  margin: 0 auto;
+  background: blue;
+  border: 0.2em solid #000000;
+}
+.frame-4 {
+  width: 60%;
+  height: 100%;
+  bottom: 0%;
+  left: 0%;
+  background: #b0d3de;
+  position: absolute;
+  clip-path: polygon(0 0, 100% 0, 72% 100%, 0% 100%);
+}
+.frame-5 {
+  width: 60%;
+  height: 100%;
+  bottom: 0%;
+  right: 0%;
+  background: #03a9f4;
+  position: absolute;
+  clip-path: polygon(28% 0, 100% 0, 100% 100%, 0 100%);
+}
+.frame-6 {
+  width: 48%;
+  height: 32%;
+  bottom: 1%;
+  left: 0.7%;
+  background: #b0d3de;
+  position: absolute;
+  border: 0.2em solid #000000;
+}
+.frame-7 {
+  width: 48%;
+  height: 32%;
+  bottom: 1%;
+  right: 0.7%;
+  background: #b0d3de;
+  position: absolute;
+  border: 0.2em solid #000000;
+}
