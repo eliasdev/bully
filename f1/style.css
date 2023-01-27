@@ -1,0 +1,96 @@
+/*=============== PAGE ONE================= */
+
+.page-1.frame-1 {
+    background-color: #9d9c9c;
+    position: relative;
+    width: 30vw;
+    height: 75vh;
+    top: 5%;
+    bottom: 0;
+    margin: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    overflow: hidden;
+}
+
+.sol-content {
+    width: 65%;
+    height: 46%;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+
+.page-1.frame-1 .sol-content img:nth-child(1) {
+    width: 55%;
+    height: auto;
+    right: 4%;
+    top: 6%
+}
+
+.nubes-content {
+    position: absolute;
+    width: 100%;
+    height: 63%;
+    right: 14%;
+    bottom: 19%;
+}
+
+.page-1.frame-1 .nubes-content img:nth-child(1) {
+    width: auto;
+    height: 100%;
+    left: 0%;
+    bottom: 0%;
+}
+
+.escuela-content {
+    position: absolute;
+    width: 100%;
+    height: 61%;
+    right: 0%;
+    bottom: 0%;
+}
+
+.page-1.frame-1 .escuela-content img:nth-child(1) {
+    width: auto;
+    height: 100%;
+    left: -15%;
+    bottom: 0%;
+}
+
+.compañeros-content {
+    position: absolute;
+    width: 100%;
+    height: 34%;
+    right: 0%;
+    bottom: 17%;
+}
+
+.page-1.frame-1 .compañeros-content img:nth-child(1) {
+    width: 45%;
+    height: auto;
+    right: 7%;
+    bottom: 22%;
+}
+
+.arbol-vale {
+    position: absolute;
+    width: 100%;
+    height: 67%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.page-1.frame-1 .arbol-vale img:nth-child(1) {
+    width: auto;
+    height: 69%;
+    bottom: 20%;
+    left: 1%;
+}
+
+.page-1.frame-1 .arbol-vale img:nth-child(2) {
+    width: auto;
+    height: 35%;
+    bottom: 5%;
+    left: 14%;
+}
