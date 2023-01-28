@@ -41,6 +41,8 @@
     height: 100%;
     left: 0%;
     bottom: 0%;
+    /* background-repeat: repeat-x; */
+    animation: bag-p7-f2 100s infinite linear;
 }
 
 .escuela-content {
@@ -93,4 +95,10 @@
     height: 35%;
     bottom: 5%;
     left: 14%;
+}
+
+@keyframes bag-p7-f2 {
+    100% {
+        background-position: 975px 0px;
+    }
 }
