@@ -18,7 +18,10 @@
   margin: 0 auto;
   background: #ffffff;
 }
-.frame-1 {
+
+/* FRAME 1 */
+
+.frame-1{
   width: 32%;
   height: 100%;
   bottom: 0%;
@@ -28,36 +31,395 @@
   position: absolute;
   overflow: hidden;
 }
-.frame-1 img:nth-child(1){
+.school{
+  width: 100%;
+  height: 100%;
+  bottom: 0%;
+  left: 0%;
+  position: absolute;
+}
+.back-frame-1{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: auto 80%;
+  background-image: url("../img/frame1/cielo.png");
+  background-repeat: repeat-x;
+  animation: back-frame-1 300s infinite linear;
+}
+.frame-1 .school img:nth-child(1){
+  width: auto;
+  height: 61%;
+  left: -19%;
+  bottom: 0;
+}
+.frame-1 .school img:nth-child(2){
+  width: auto;
+  height: 52%;
+  left: 0;
+  bottom: 10%;
+}
+.frame-1 .school img:nth-child(3){
+  width: 54%;
+  height: auto;
+  right: 8%;
+  bottom: 23%;
+}
+.frame-1 .school img:nth-child(4){
+  width: 20%;
+  height: auto;
+  left: 18%;
+  bottom: 10%;
+}
+.sun {
+  width: 35%;
+  height: 35%;
+  right: 5%;
+  top: -7%;
+  position: absolute;
+}
+.frame-1 .sun img:nth-child(1){
   width: 100%;
   height: auto;
-  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transform-origin: center;
+  filter: blur(2px);
+  animation: sun-f1 5s infinite linear;
 }
-.frame-1 img:nth-child(2){
+.frame-1 .sun img:nth-child(2){
+  width: 100%;
+  height: auto;
+  right: 0%;
+  left: auto;
+  bottom: 0;
+  opacity: 0;
+  transform-origin: center;
+  filter: blur(1px);
+  animation: sun-f1 5s 1s infinite linear;
+}
+.frame-1 .sun img:nth-child(3){
+  width: 100%;
+  height: auto;
+  right: -1%;
+  left: auto;
+  bottom: 0;
+  filter: blur(1px);
+}
+.text{
+  width: 100%;
+  height: 100%;
+  bottom: 0%;
+  left: 0%;
+  position: absolute;
+}
+.frame-1 .text img:nth-child(1){
+  width: 75%;
+  height: auto;
+  left: 1%;
+  top: 15%;
+}
+.frame-1 .text img:nth-child(2){
+  width: 75%;
+  height: auto;
+  right: 0%;
+  top: 37%;
+}
+.frame-1 .vale{
+  width: 23%;
+  height: 18%;
+  left: 20%;
+  bottom: 7%;
+  position: absolute;
+}
+.frame-1 .vale img:nth-child(1){
+  width: 100%;
+  height: auto;
+  right: 0%;
+  bottom: 0%;
+  left: auto;
+}
+.frame-1 .vale img:nth-child(2){
+  width: auto;
+  height: 14%;
+  left: 17%;
+  top: 34%;
+  bottom: auto;
+}
+.frame-1 .vale img:nth-child(3){
+  width: auto;
+  height: 9%;
+  left: 17%;
+  top: 34%;
+  right: auto;
+  bottom: auto;
+  transform-origin: center;
+  animation: eye-pupils 2s infinite ease;
+}
+@keyframes eye-pupils {
+  0%{transform: translateX(2%);}
+  10%{transform: translateX(3%);}
+  20%{transform: translateX(4%);}
+  50%{transform: translateX(3%);}
+  100%{transform: translateX(2%);}
+}
+@keyframes back-frame-1 {
+  100% {
+    background-position: 1104px 0px;
+  }
+}
+@keyframes sun-f1 {
+  0%{transform: scale(0.99); opacity: 0;}
+  25%{transform: scale(1.03); opacity: 0.3;}
+  50%{transform: scale(1.05); opacity: 0.5;}
+  75%{transform: scale(1.03); opacity: 0.3;}
+  100%{transform: scale(1.05); opacity: 0;}
+}
 
-}
-.frame-1 img:nth-child(3){
+/* FRAME 2 */
 
-}
 .frame-2 {
   width: 32%;
   height: 100%;
   bottom: 0%;
   right: 33.7%;
   border: 0.2em solid #000000;
-  background: #b0d3de;
+  background: #7DB4D8;
   position: absolute;
   overflow: hidden;
 }
+.back-frame-2{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: auto 80%;
+  background-image: url("../img/frame2/nubes.png");
+  background-repeat: repeat-x;
+  animation: back-frame-2 300s infinite linear;
+}
+.frame-2 .montain {
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+.frame-2 .montain img:nth-child(1){
+  width: 150%;
+  height: auto;
+  bottom: 0;
+  left: -23%;
+}
+.frame-2 .montain img:nth-child(2){
+  width: 22%;
+  height: auto;
+  bottom: 14%;
+  left: 7%;
+}
+.frame-2 .montain img:nth-child(3){
+  width: 24%;
+  height: auto;
+  bottom: 13%;
+  right: 11%;
+}
+.frame-2 .montain img:nth-child(4){
+  width: 24%;
+  height: auto;
+  bottom: 25%;
+  right: 38%;
+}
+.frame-2 .content-comet{
+  width: 40%;
+  height: 67%;
+  top: 0;
+  left: 33%;
+  position: absolute;
+  transform-origin: bottom left;
+  animation: content-comet 3s infinite linear;
+}
+.frame-2 .content-comet img:nth-child(1){
+  width: auto;
+  height: 63%;
+  bottom: 0;
+  left: 0%;
+}
+.frame-2 .comet-head {
+  width: 100%;
+  height: 40%;
+  top: 17%;
+  left: -7%;
+  position: absolute;
+  transform-origin: center;
+  animation: comet-head 1.5s infinite linear;
+}
+.frame-2 .comet-head img:nth-child(1){
+  width: 100%;
+  height: auto;
+  bottom: 0;
+  left: 0%;
+}
+.frame-2 .comet-tail {
+  width: 20%;
+  height: 55%;
+  top: 85%;
+  right: 10%;
+  position: absolute;
+  transform-origin: top left;
+  animation: comet-tail 1s infinite linear;
+}
+.frame-2 .comet-tail img:nth-child(1){
+  width: 100%;
+  height: auto;
+  bottom: 0;
+  left: 0%;
+}
+.movement {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 43.6%;
+    background: url(../img/frame2/secuencia-01.png);
+    background-size: 100% auto;
+    margin: 0 auto;
+    animation: movement 0.5s steps(5) infinite;
+}
+@keyframes movement {
+  0% {
+    background-position-x: -122%;
+  }
+  100% {
+      background-position-x: 0;
+  }
+}
+@keyframes back-frame-2 {
+  100% {
+    background-position: 1104px 0px;
+  }
+}
+@keyframes content-comet{
+  0% {transform: skew(1deg) rotate(10deg);}
+  10% {transform: skew(2deg) rotate(8deg);}
+  20% {transform: skew(5deg) rotate(3deg);}
+  30% {transform: skew(5deg) rotate(5deg);}
+  40% {transform: skew(2deg) rotate(8deg);}
+  100% {transform: skew(1deg) rotate(10deg);}
+}
+@keyframes comet-head{
+  0% {transform: skew(1deg);}
+  10% {transform: skew(2deg);}
+  20% {transform: skew(5deg);}
+  30% {transform: skew(5deg);}
+  40% {transform: skew(2deg);}
+  100% {transform: skew(1deg);}
+}
+@keyframes comet-tail{
+  0% {
+    transform: rotate(-10deg);
+  }
+  10% {
+      transform: rotate(-5deg);
+  }
+  20% {
+      transform: rotate(-10deg);
+  }
+  30% {
+      transform: rotate(-12deg);
+  }
+  40% {
+      transform: rotate(-8deg);
+  }
+  100% {
+      transform: rotate(-10deg);
+  }
+}
+/* FRAME 3 */
+
 .frame-3 {
   width: 32%;
   height: 100%;
   bottom: 0%;
   right: 0%;
   border: 0.2em solid #000000;
-  background: #b0d3de;
+  background: #7DB4D8;
   position: absolute;
   overflow: hidden;
+}
+.frame-3 .montain {
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+.frame-3 .montain img:nth-child(1){
+  width: auto;
+  height: 38%;
+  bottom: 0;
+  right: 0;
+}
+.frame-3 .montain img:nth-child(2){
+  width: 88%;
+  height: auto;
+  bottom: 0;
+  left: 0%;
+}
+.back-frame-3{
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  background-size: auto 80%;
+  background-image: url("../img/frame2/nubes.png");
+  background-repeat: repeat-x;
+  animation: back-frame-2 300s infinite linear;
+}
+.vale-eyes{
+  width: 47%;
+  height: 13%;
+  top: 49%;
+  left: 9%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: vale-eyes 2s infinite alternate ease-out;
+}
+.frame-3 .text img:nth-child(1){
+  width: 80%;
+  height: auto;
+  top: 0;
+  left: 10%;
+}
+.frame-3 .text img:nth-child(2){
+  width: 40%;
+  height: auto;
+  top: 14%;
+  right: 7%;
+  bottom: auto;
+  left: auto;
+}
+.frame-3 .text img:nth-child(3){
+  width: 40%;
+  height: auto;
+  top: 14%;
+  left: 7%;
+  bottom: auto;
+  right: auto;
+}
+
+@keyframes vale-eyes {
+  0% {
+      background-image: url("../img/frame3/ojos-vale-1.png");
+  }
+  5% {
+      background-image: url("../img/frame3/ojos-vale-2.png");
+  }
+  10%{
+    background-image: url("../img/frame3/ojos-vale-3.png");
+  }
+  100% {
+    background-image: url("../img/frame3/ojos-vale-3.png");
+  }
 }
 .content-frames {
   width: 98%;
@@ -67,27 +429,262 @@
   left: 0%;
   right: 0;
   margin: 0 auto;
+  overflow: hidden;
   background: blue;
   border: 0.2em solid #000000;
 }
+.content-frames img:nth-child(1){
+  width: auto;
+  height: 103%;
+  top: -2%;
+  left: 29.5%;
+}
+
+/* FRAME 4 */
+
 .frame-4 {
-  width: 60%;
+  width: 50%;
   height: 100%;
   bottom: 0%;
   left: 0%;
-  background: #b0d3de;
+  background: #7DB4D8;
   position: absolute;
   clip-path: polygon(0 0, 100% 0, 72% 100%, 0% 100%);
 }
+.frame-4 .text img:nth-child(1){
+  width: 52%;
+  height: auto;
+  top: 3%;
+  left: 0;
+}
+.frame-4 .montain img:nth-child(1){
+  width: 106%;
+  height: auto;
+  left: -5%;
+  top: auto;
+}
+.frame-4 .montain img:nth-child(2){
+  width: 25%;
+  height: auto;
+  right: 24%;
+  top: 16%;
+}
+.frame-4 .montain img:nth-child(3){
+  width: 45%;
+  height: auto;
+  left: 2%;
+  bottom: 5%;
+}
+.frame-4 .vale-eyes{
+  width: 23%;
+  height: 13%;
+  top: 45%;
+  left: 7%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: vale-eyes 2s infinite alternate ease-out;
+}
+.frame-4 .back-frame-4{
+  width: 100%;
+  height: 53%;
+  position: absolute;
+  background-size: auto 80%;
+  background-image: url("../img/frame2/nubes.png");
+  background-repeat: repeat-x;
+  animation: back-frame-4 300s infinite linear;
+}
+@keyframes back-frame-4 {
+  100% {
+    background-position: 1104px 0px;
+  }
+}
+
+/* FRAME 5 */
+
 .frame-5 {
-  width: 60%;
+  width: 71%;
   height: 100%;
   bottom: 0%;
   right: 0%;
-  background: #03a9f4;
+  background: #9dd6f0;
   position: absolute;
-  clip-path: polygon(28% 0, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(28% 0, 100% 0, 100% 100%, 2% 100%);
 }
+.frame-5 img:nth-child(1){
+  width: 101%;
+  height: auto;
+  bottom: -1%;
+  left: auto;
+  top: auto;
+  right: -1%;
+}
+.frame-5 .text img:nth-child(1){
+  width: 44%;
+  height: auto;
+  top: 3%;
+  left: 29%;
+}
+.frame-5 .text img:nth-child(2){
+  width: 21%;
+  height: auto;
+  top: 16%;
+  left: 35%;
+}
+.frame-5 .text img:nth-child(3){
+  width: 21%;
+  height: auto;
+  top: 6%;
+  right: 2%;
+}
+.frame-5 .mother{
+   width: 35%;
+   height: 100%;
+   left: 32%;
+   top: 35%;
+   position: absolute;
+}
+.frame-5 .mother img:nth-child(1){
+  width: 100%;
+  height: auto;
+  left: 0%;
+  top: auto;
+}
+.frame-5 .mother-mouth{
+  width: 17.1%;
+  height: 10%;
+  position: absolute;
+  left: 47%;
+  bottom: 56%;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: mother-mouth 4s infinite cubic-bezier(1, -0.07, 0.22, 1.02);
+}
+.frame-5 .father{
+  width: 35%;
+  height: 100%;
+  right: 0;
+  top: 3%;
+  position: absolute;
+}
+.frame-5 .father img:nth-child(1){
+  width: 92%;
+  height: auto;
+  left: 0%;
+  top: auto;
+  bottom: -33%;
+}
+.frame-5 .father img:nth-child(2){
+  width: 15%;
+  height: auto;
+  left: 13%;
+  top: 36%;
+  transform-origin: left bottom;
+  animation: eyerbrowns 2s infinite ease;
+}
+.frame-5 .father img:nth-child(3){
+  width: 15%;
+  height: auto;
+  right: 31%;
+  top: 36%;
+  transform-origin: right bottom;
+  animation: eyerbrowns-2 2s infinite ease;
+}
+.fother-mostach{
+  width: 35%;
+  height: 13%;
+  top: 54%;
+  left: 22%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  transform-origin: center;
+  animation: fother-mostach 1.5s infinite ease;
+}
+@keyframes eyerbrowns{
+  0%{ transform: rotate(0deg);}
+  5% { transform: rotate(5deg);}
+  100% { transform: rotate(0deg);}
+}
+@keyframes eyerbrowns-2{
+  0%{ transform: rotate(5deg);}
+  5% { transform: rotate(0deg);}
+  100% { transform: rotate(5deg);}
+}
+@keyframes fother-mostach{
+  0% { background-image: url("../img/frame4y5/bigote-papa-1.png");}
+  5% { background-image: url("../img/frame4y5/bigote-papa-2.png");}
+  8% { background-image: url("../img/frame4y5/bigote-papa-3.png");}
+  12% { background-image: url("../img/frame4y5/bigote-papa-2.png");}
+  15% { background-image: url("../img/frame4y5/bigote-papa-1.png");}
+  100% { background-image: url("../img/frame4y5/bigote-papa-1.png");}
+}
+@keyframes mother-mouth {
+  0% {
+    background-image: url(../img/frame4y5/boca_mama1.png);
+  }
+  2% {
+      background-image: url(../img/frame4y5/boca_mama2.png;
+  }
+  4% {
+      background-image: url(../img/frame4y5/boca_mama3.png);
+  }
+  6% {
+      background-image: url(../img/frame4y5/boca_mama2.png);
+  }
+  8% {
+      background-image: url(../img/frame4y5/boca_mama1.png);
+  }
+  10% {
+      background-image: url(../img/frame4y5/boca_mama2.png);
+  }
+  12% {
+      background-image: url(../img/frame4y5/boca_mama3.png);
+  }
+  14% {
+      background-image: url(../img/frame4y5/boca_mama2.png);
+  }
+  16% {
+      background-image: url(../img/frame4y5/boca_mama1.png;
+  }
+  18% {
+      background-image: url(../img/frame4y5/boca_mama2.png);
+  }
+  30% {
+      background-image: url(../img/frame4y5/boca_mama3.png);
+  }
+  32% {
+      background-image: url(../img/frame4y5/boca_mama2.png);
+  }
+  34% {
+      background-image: url(../img/frame4y5/boca_mama1.png);
+  }
+  36% {
+      background-image: url(../img/frame4y5/boca_mama2.png);
+  }
+  38% {
+      background-image: url(../img/frame4y5/boca_mama3.png);
+  }
+  40% {
+      background-image: url(../img/frame4y5/boca_mama1.png);
+  }
+  42% {
+      background-image: url(../img/frame4y5/boca_mama2.png);
+  }
+  44% {
+      background-image: url(../img/frame4y5/boca_mama1.png);
+  }
+  46% {
+      background-image: url(../img/frame4y5/boca_mama1.png);
+  }
+  48% {
+      background-image: url(../img/frame4y5/boca_mama1.png);
+  }
+  100% {
+      background-image: url(../img/frame4y5/boca_mama1.png);
+  }
+}
+
 .frame-6 {
   width: 48%;
   height: 32%;
@@ -95,7 +692,98 @@
   left: 0.7%;
   background: #b0d3de;
   position: absolute;
+  overflow: hidden;
   border: 0.2em solid #000000;
+}
+.frame-6 img:nth-child(1){
+  width: 101%;
+  height: auto;
+  top: 0%;
+  left: 0%;
+}
+.frame-6 .text img:nth-child(1){
+  width: 60%;
+  height: auto;
+  left: 1%;
+  top: 3%;
+}
+.frame-6 .text img:nth-child(2){
+  width: 30%;
+  height: auto;
+  top: 27%;
+  left: 12%;
+}
+.frame-6 .text img:nth-child(3){
+  width: 32%;
+  height: auto;
+  top: 20%;
+  right: 19%;
+}
+.frame-6 .mother{
+  width: 25%;
+  height: 52%;
+  left: 26%;
+  bottom: 0;
+  top: auto;
+  position: absolute;
+}
+.frame-6 .mother img:nth-child(1){
+  width: 100%;
+  height: auto;
+  left: 0%;
+  top: auto;
+}
+.mother-mouth{
+  width: 17.1%;
+  height: 10%;
+  position: absolute;
+  left: 47%;
+  bottom: 56%;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: mother-mouth 4s infinite cubic-bezier(1, -0.07, 0.22, 1.02);
+}
+.frame-6 .father{
+  width: 24%;
+  height: 66%;
+  right: 24%;
+  bottom: 2%;
+  top: auto;
+  position: absolute;
+}
+.frame-6 .father img:nth-child(1){
+  width: 92%;
+  height: auto;
+  left: 0%;
+  top: auto;
+  bottom: 0%;
+}
+.frame-6 .father img:nth-child(2){
+  width: 15%;
+  height: auto;
+  left: 13%;
+  top: 31%;
+  transform-origin: left bottom;
+  animation: eyerbrowns 2s infinite ease;
+}
+.frame-6 .father img:nth-child(3){
+  width: 15%;
+  height: auto;
+  right: 31%;
+  top: 31%;
+  transform-origin: right bottom;
+  animation: eyerbrowns-2 2s infinite ease;
+}
+.frame-6 .fother-mostach{
+  width: 35%;
+  height: 13%;
+  top: 44%;
+  left: 22%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  transform-origin: center;
+  animation: fother-mostach 1.5s infinite ease;
 }
 .frame-7 {
   width: 48%;
@@ -104,5 +792,137 @@
   right: 0.7%;
   background: #b0d3de;
   position: absolute;
+  overflow: hidden;
   border: 0.2em solid #000000;
+}
+.frame-7 img:nth-child(1){
+  width: 102%;
+  height: auto;
+  bottom: -1%;
+  left: 0%;
+}
+
+.frame-7 .text img:nth-child(1){
+  width: 65%;
+  height: auto;
+  left: 24%;
+  top: 2%;
+}
+.frame-7 .text img:nth-child(2){
+  width: 30%;
+  height: auto;
+  top: 14%;
+  left: 2%;
+}
+.frame-7 .text img:nth-child(3){
+  width: 30%;
+  height: auto;
+  top: 14%;
+  left: 35%;
+}
+.frame-7 .text img:nth-child(4){
+  width: 30%;
+  height: auto;
+  top: 14%;
+  right: 2%;
+}
+.frame-7 .mother{
+  width: 19%;
+  height: 37%;
+  left: 2%;
+  bottom: 23%;
+  top: auto;
+  position: absolute;
+}
+.frame-7 .mother img:nth-child(1){
+  width: 100%;
+  height: auto;
+  left: 0%;
+  top: auto;
+}
+.mother-mouth{
+  width: 17.1%;
+  height: 10%;
+  position: absolute;
+  left: 47%;
+  bottom: 56%;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: mother-mouth 4s infinite cubic-bezier(1, -0.07, 0.22, 1.02);
+}
+.frame-7 .father{
+  width: 19%;
+  height: 52%;
+  left: 20%;
+  right: auto;
+  bottom: 23%;
+  top: auto;
+  position: absolute;
+}
+.frame-7 .father img:nth-child(1){
+  width: 92%;
+  height: auto;
+  left: 0%;
+  top: auto;
+  bottom: 0%;
+}
+.frame-7 .father img:nth-child(2){
+  width: 15%;
+  height: auto;
+  left: 13%;
+  top: 31%;
+  transform-origin: left bottom;
+  animation: eyerbrowns 2s infinite ease;
+}
+.frame-7 .father img:nth-child(3){
+  width: 15%;
+  height: auto;
+  right: 31%;
+  top: 31%;
+  transform-origin: right bottom;
+  animation: eyerbrowns-2 2s infinite ease;
+}
+.frame-7 .fother-mostach{
+  width: 35%;
+  height: 13%;
+  top: 44%;
+  left: 22%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  transform-origin: center;
+  animation: fother-mostach 1.5s infinite ease;
+}
+.frame-7 .vale{
+  width: 46%;
+  height: 68%;
+  right: 6%;
+  bottom: 2%;
+  top: auto;
+  position: absolute;
+}
+.frame-7 .vale img:nth-child(1){
+  width: 62%;
+  height: auto;
+  right: 10%;
+  left: auto;
+  top: auto;
+  bottom: 0;
+}
+.frame-7 .vale img:nth-child(2){
+  width: 100%;
+  height: auto;
+  left: 0%;
+  top: 6%;
+}
+.frame-7 .vale-eyes{
+  width: 47%;
+  height: 13%;
+  top: 34%;
+  right: 12%;
+  left: auto;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: vale-eyes 2s infinite alternate ease-out;
 }
