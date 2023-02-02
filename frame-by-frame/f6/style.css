@@ -1,0 +1,55 @@
+.page-1.frame-6 {
+    background-color: #9d9c9c;
+    position: relative;
+    width: 33vw;
+    height: 60vh;
+    top: 5%;
+    bottom: 0;
+    margin: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    overflow: hidden;
+}
+
+.page-1.frame-6 img:nth-child(1) {
+    width: 102%;
+    height: auto;
+    bottom: 0%;
+    right: -1%;
+}
+
+.padres-content {
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.page-1.frame-6 .padres-content img:nth-child(1) {
+    width: auto;
+    height: 87%;
+    bottom: 0%;
+    left: 19%;
+}
+
+.page-1.frame-6 .padres-content img:nth-child(2) {
+    width: auto;
+    height: 98%;
+    bottom: 0%;
+    right: 21%;
+}
+
+.page-1.frame-6 .padres-content img:nth-child(3) {
+    width: auto;
+    height: 30%;
+    bottom: 85%;
+    left: 6%;
+}
+
+.page-1.frame-6 .padres-content img:nth-child(4) {
+    width: auto;
+    height: 30%;
+    bottom: 92%;
+    right: 19%;
+}

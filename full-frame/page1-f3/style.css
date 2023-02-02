@@ -1,0 +1,89 @@
+.frame-3 .text {
+    height: 30%;
+    top: 5%;
+}
+/* FRAME 3 */
+
+.frame-3 {
+  width: 100%;
+  height: 100%;
+  bottom: 0%;
+  right: 0%;
+  border: 0.2em solid #000000;
+  background: #7DB4D8;
+  position: absolute;
+  overflow: hidden;
+}
+.frame-3 .montain {
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+.frame-3 .montain img:nth-child(1){
+  width: auto;
+  height: 38%;
+  bottom: 0;
+  right: 0;
+}
+.frame-3 .montain img:nth-child(2){
+  width: 88%;
+  height: auto;
+  bottom: 0;
+  left: 0%;
+}
+.back-frame-3{
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  background-size: auto 80%;
+  background-image: url("../img/frame2/nubes.png");
+  background-repeat: repeat-x;
+  animation: back-frame-2 300s infinite linear;
+}
+.vale-eyes{
+  width: 45%;
+  height: 13%;
+  bottom: 31%;
+  left: 9%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: vale-eyes 2s infinite alternate ease-out;
+}
+.frame-3 .text img:nth-child(1){
+  width: 80%;
+  height: auto;
+  top: 0;
+  left: 10%;
+}
+.frame-3 .text img:nth-child(2){
+  width: 45%;
+  height: auto;
+  bottom: 24%;
+  right: 4%;
+  left: auto;
+}
+.frame-3 .text img:nth-child(3){
+  width: 45%;
+  height: auto;
+  bottom: 24%;
+  left: 4%;
+  right: auto;
+}
+
+@keyframes vale-eyes {
+  0% {
+      background-image: url("../img/frame3/ojos-vale-1.png");
+  }
+  5% {
+      background-image: url("../img/frame3/ojos-vale-2.png");
+  }
+  10%{
+    background-image: url("../img/frame3/ojos-vale-3.png");
+  }
+  100% {
+    background-image: url("../img/frame3/ojos-vale-3.png");
+  }
+}
