@@ -1,0 +1,363 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    margin: 0;
+    font-family: 'Comic Neue', cursive;
+    font-size: 0.8em;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 60px;
+    left: 0;
+    right: 0;
+}
+
+.container-intro {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 60px;
+    left: 0;
+    right: 0;
+    background-size: cover;
+}
+
+
+/*===========RESPONSIVE===========*/
+
+.scaleable-wrapper {
+    background-color: black;
+    position: relative;
+    height: 218.7vw;
+    max-width: 1024vh;
+    max-height: 100vh;
+}
+
+.very-specific-design {
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: 46%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+}
+
+
+/*==========WRAPPER==========*/
+
+.page-back-intro {
+    background-size: 100% 100%;
+    flex-wrap: wrap;
+}
+
+.page-container {
+    background: #ffffff;
+    position: relative;
+    width: 100vw;
+    height: 170vw;
+    max-width: 57.847vh;
+    max-height: 85vh;
+    top: 5%;
+    bottom: 0;
+    margin: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    overflow: hidden;
+    border: 0.5em solid #3f51b5;
+    box-sizing: border-box;
+}
+
+.wrapper-page {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: auto;
+}
+
+.border-top {
+    border-top: 2px solid #fbf8f8;
+    margin: 0%;
+    padding: 0%;
+}
+
+.border-bottom {
+    border-bottom: 2px solid #fbf8f8;
+    margin: 0%;
+    padding: 0%;
+}
+
+.border-right {
+    border-right: 2px solid #fbf8f8;
+    margin: 0%;
+    padding: 0%;
+}
+
+.border-left {
+    border-left: 2px solid #fbf8f8;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/*==========NAVIGATION==========*/
+
+.navigation {
+    background-color: #222836;
+    color: #FFFFFF;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    z-index: 1000;
+}
+
+.page-counter {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgba(255, 255, 255, 0.3);
+    width: 40%;
+    height: 60px;
+    position: absolute;
+    left: 20%;
+    margin: auto;
+    line-height: 60px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.nav-button {
+    background-color: rgba(255, 255, 255, 0.05);
+    width: 20%;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+}
+
+.nav-button i {
+    line-height: 60px;
+}
+
+.nav-button:active {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.turn-left {
+    right: 20%;
+}
+
+.turn-right {
+    right: 0;
+}
+
+.nav-logo {
+    background-color: #222836;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    line-height: 60px;
+    text-align: center;
+    z-index: 1;
+}
+
+.nav-logo:hover {
+    top: -120px;
+    transition: 1s ease;
+}
+
+.nav-logo img {
+    width: auto;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.inactive {
+    opacity: 0.2;
+}
+
+.inactive:active {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+
+/*==========FRAMES==========*/
+
+.box {
+    background-color: black;
+    position: relative;
+    z-index: 10;
+    clear: both;
+    margin: 4vh auto;
+}
+
+.box-left {
+    float: left;
+    margin-left: 1.5vw;
+}
+
+.box-right {
+    float: right;
+    margin-right: 1.5vw;
+}
+
+.inner-box {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+.frame {
+    background-color: #FFFFFF;
+    position: absolute;
+    /* top: 0; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    margin: auto;
+    overflow: hidden;
+    border: 3px solid #FFFFFF;
+}
+
+.vertical-small {
+    width: 100%;
+    height: 50%;
+}
+
+.vertical-medium {
+    width: 100%;
+    height: 75%;
+}
+
+.vertical-big {
+    width: 100%;
+    height: 100%;
+}
+
+.border-black {
+    border-color: #000000;
+}
+
+
+/*==========IMAGES==========*/
+
+img {
+    position: absolute;
+}
+
+.img-full-width {
+    width: 100%;
+    height: auto;
+}
+
+.img-full-height {
+    width: auto;
+    height: 108%;
+}
+
+.img-100 {
+    width: 100%;
+    height: auto;
+}
+
+.img-200 {
+    width: 200%;
+    height: auto;
+}
+
+.img-300 {
+    width: 300%;
+    height: auto;
+}
+
+
+/*==========LAYERS==========*/
+
+.z1 {
+    z-index: 1;
+}
+
+.z2 {
+    z-index: 2;
+}
+
+.z3 {
+    z-index: 3;
+}
+
+.z4 {
+    z-index: 4;
+}
+
+.z5 {
+    z-index: 5;
+}
+
+.z6 {
+    z-index: 6;
+}
+
+.z7 {
+    z-index: 7;
+}
+
+.z8 {
+    z-index: 8;
+}
+
+.z9 {
+    z-index: 9;
+}
+
+.z10 {
+    z-index: 10;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+
+/*==========PAGE FRAME==========*/
+
+.page-frame {
+    position: absolute;
+    box-sizing: border-box;
+    overflow: hidden;
+}
