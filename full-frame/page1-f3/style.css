@@ -9,7 +9,7 @@
   height: 100%;
   bottom: 0%;
   right: 0%;
-  border: 0.2em solid #000000;
+  /* border: 0.2em solid #000000; */
   background: #7DB4D8;
   position: absolute;
   overflow: hidden;
@@ -40,7 +40,7 @@
   background-size: auto 80%;
   background-image: url("../img/frame2/nubes.png");
   background-repeat: repeat-x;
-  animation: back-frame-2 300s infinite linear;
+  animation: back-frame-3 300s infinite linear;
 }
 .vale-eyes{
   width: 45%;
@@ -72,7 +72,11 @@
   left: 4%;
   right: auto;
 }
-
+@keyframes back-frame-3 {
+  100% {
+    background-position: 1104px 0px;
+  }
+}
 @keyframes vale-eyes {
   0% {
       background-image: url("../img/frame3/ojos-vale-1.png");

@@ -16,7 +16,7 @@
   height: 100%;
   bottom: 0%;
   right: 33.7%;
-  border: 0.2em solid #000000;
+  /* border: 0.2em solid #000000; */
   background: #7DB4D8;
   position: absolute;
   overflow: hidden;
@@ -133,6 +133,13 @@
   margin: 0 auto;
   animation: movement 0.8s steps(5) infinite;
 }
+.frame-2 .text img:nth-child(1){
+  width: 80%;
+  height: auto;
+  top: 6%;
+  left: 10%;
+}
+
 @keyframes movement {
   0% {
     background-position-x: -123.1%;

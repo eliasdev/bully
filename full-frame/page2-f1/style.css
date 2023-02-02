@@ -12,11 +12,10 @@
 /* FRAME 1 */
 
 .frame-1{
-  width: 100%;
+  width: 60%;
   height: 100%;
   bottom: 0%;
   left: 0%;
-  /* border: 0.2em solid #000000; */
   background: #b0d3de;
   position: absolute;
   overflow: hidden;
@@ -40,27 +39,10 @@
 .frame-1 .school img:nth-child(1){
   width: auto;
   height: 61%;
-  left: -19%;
+  left: -16%;
   bottom: 0;
 }
-.frame-1 .school img:nth-child(2){
-  width: auto;
-  height: 52%;
-  left: 0;
-  bottom: 10%;
-}
-.frame-1 .school img:nth-child(3){
-  width: 54%;
-  height: auto;
-  right: 8%;
-  bottom: 23%;
-}
-.frame-1 .school img:nth-child(4){
-  width: 20%;
-  height: auto;
-  left: 18%;
-  bottom: 10%;
-}
+
 .sun {
   width: 35%;
   height: 35%;
@@ -116,42 +98,7 @@
   right: 0%;
   top: 37%;
 }
-.frame-1 .vale{
-  width: 27%;
-  height: 18%;
-  left: 20%;
-  bottom: 7%;
-  position: absolute;
-}
-.frame-1 .vale img:nth-child(1){
-  width: 100%;
-  height: auto;
-  right: 0%;
-  bottom: 0%;
-  left: auto;
-}
-.frame-1 .vale img:nth-child(2){
-  width: auto;
-  height: 14%;
-  left: 17%;
-  top: 34%;
-  bottom: auto;
-}
-.frame-1 .vale img:nth-child(3){
-  width: auto;
-  height: 9%;
-  left: 17%;
-  top: 34%;
-  right: auto;
-  bottom: auto;
-  transform-origin: center;
-  animation: eye-pupils 5s infinite ease;
-}
-@keyframes eye-pupils {
-  0%{transform: translateX(0%);}
-  50%{transform: translateX(5%);}
-  100%{transform: translateX(0%);}
-}
+
 @keyframes back-frame-1 {
   100% {
     background-position: 1104px 0px;
