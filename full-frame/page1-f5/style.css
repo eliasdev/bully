@@ -1,0 +1,246 @@
+/* FRAME 5 */
+
+.frame-5 {
+  width: 70%;
+  height: 100%;
+  background: #9dd6f0;
+  /* position: absolute; */
+  /* clip-path: polygon(28% 0, 100% 0, 100% 100%, 2% 100%); */
+}
+.frame-5 img:nth-child(1){
+  width: auto;
+  height: 105%;
+  bottom: -1%;
+  left: auto;
+  top: auto;
+  right: -1%;
+}
+.frame-5 .text img:nth-child(1){
+  width: 63%;
+  height: auto;
+  top: 3%;
+  left: 9%;
+  bottom: auto;
+  right: auto;
+}
+.frame-5 .text img:nth-child(2){
+  width: 31%;
+  height: auto;
+  top: 26%;
+  left: 9%;
+}
+.frame-5 .text img:nth-child(3){
+  width: 31%;
+  height: auto;
+  top: 20%;
+  right: 15%;
+}
+.frame-5 .mother{
+  width: 38%;
+ height: 100%;
+ left: 12%;
+ top: 40%;
+ position: absolute;
+}
+.frame-5 .mother img:nth-child(1){
+  width: 100%;
+  height: auto;
+  left: 0%;
+  right: auto;
+  top: 6%;
+}
+.frame-5 .mother-mouth{
+  width: 17.1%;
+  height: 10%;
+  position: absolute;
+  left: 47%;
+  bottom: 56%;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: mother-mouth 4s infinite cubic-bezier(1, -0.07, 0.22, 1.02);
+}
+.mother-eyes{
+  width: 54%;
+  height: 15%;
+  right: 17%;
+  top: 22%;
+  position: absolute;
+}
+.frame-5 .mother .mother-eyes img:nth-child(1){
+  width: 100%;
+  height: auto;
+  right: 0%;
+  top: 0%;
+}
+.frame-5 .mother .mother-eyes img:nth-child(2){
+  width: 80%;
+  height: auto;
+  right: 7%;
+  top: 10%;
+  left: auto;
+  transform-origin: center;
+  animation: mother-eye-pupils 10s infinite ease;
+}
+.frame-5 .mother .mother-eyes img:nth-child(3){
+  width: 135%;
+  height: auto;
+  right: -20%;
+  top: -4%;
+  left: auto;
+}
+.frame-5 .father{
+  width: 35%;
+  height: 73%;
+  right: 16%;
+  bottom: 2%;
+  position: absolute;
+}
+.frame-5 .father img:nth-child(1){
+  width: 92%;
+  height: auto;
+  left: 0%;
+  top: auto;
+  bottom: -33%;
+}
+.frame-5 .father img:nth-child(2){
+  width: 15%;
+  height: auto;
+  left: 13%;
+  top: 36%;
+  transform-origin: left bottom;
+  animation: eyerbrowns 2s infinite ease;
+}
+.frame-5 .father img:nth-child(3){
+  width: 15%;
+  height: auto;
+  right: 31%;
+  top: 36%;
+  transform-origin: right bottom;
+  animation: eyerbrowns-2 2s infinite ease;
+}
+.father-eyes{
+  width: 54%;
+  height: 15%;
+  right: 31%;
+  top: 42%;
+  position: absolute;
+}
+.frame-5 .father .father-eyes img:nth-child(1){
+  width: 100%;
+  height: auto;
+  right: 0%;
+  top: 0%;
+}
+.frame-5 .father .father-eyes img:nth-child(2){
+  width: 80%;
+  height: auto;
+  right: 12%;
+  top: 10%;
+  left: auto;
+  transform-origin: center;
+  animation: father-eye-pupils 8s infinite ease;
+}
+.fother-mostach{
+  width: 35%;
+  height: 13%;
+  top: 54%;
+  left: 22%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  transform-origin: center;
+  animation: fother-mostach 8s infinite ease;
+}
+@keyframes father-eye-pupils {
+  0%{transform: translate(0%);}
+  50%{transform: translate(3%);}
+  100%{transform: translate(0%);}
+}
+@keyframes mother-eye-pupils {
+  0%{transform: translate(-2%);}
+  50%{transform: translate(0%);}
+  100%{transform: translate(-2%);}
+}
+@keyframes eyerbrowns{
+  0%{ transform: rotate(0deg);}
+  5% { transform: rotate(5deg);}
+  100% { transform: rotate(0deg);}
+}
+@keyframes eyerbrowns-2{
+  0%{ transform: rotate(5deg);}
+  5% { transform: rotate(0deg);}
+  100% { transform: rotate(5deg);}
+}
+@keyframes fother-mostach{
+  0% { background-image: url("../img/frame4y5/bigote-papa-1.png");}
+  5% { background-image: url("../img/frame4y5/bigote-papa-2.png");}
+  8% { background-image: url("../img/frame4y5/bigote-papa-3.png");}
+  12% { background-image: url("../img/frame4y5/bigote-papa-2.png");}
+  15% { background-image: url("../img/frame4y5/bigote-papa-1.png");}
+  100% { background-image: url("../img/frame4y5/bigote-papa-1.png");}
+}
+@keyframes mother-mouth {
+  0% {
+    background-image: url(../img/frame4y5/boca_mama1.png);
+  }
+  2% {
+      background-image: url(../img/frame4y5/boca_mama2.png;
+  }
+  4% {
+      background-image: url(../img/frame4y5/boca_mama3.png);
+  }
+  6% {
+      background-image: url(../img/frame4y5/boca_mama2.png);
+  }
+  8% {
+      background-image: url(../img/frame4y5/boca_mama1.png);
+  }
+  10% {
+      background-image: url(../img/frame4y5/boca_mama2.png);
+  }
+  12% {
+      background-image: url(../img/frame4y5/boca_mama3.png);
+  }
+  14% {
+      background-image: url(../img/frame4y5/boca_mama2.png);
+  }
+  16% {
+      background-image: url(../img/frame4y5/boca_mama1.png;
+  }
+  18% {
+      background-image: url(../img/frame4y5/boca_mama2.png);
+  }
+  30% {
+      background-image: url(../img/frame4y5/boca_mama3.png);
+  }
+  32% {
+      background-image: url(../img/frame4y5/boca_mama2.png);
+  }
+  34% {
+      background-image: url(../img/frame4y5/boca_mama1.png);
+  }
+  36% {
+      background-image: url(../img/frame4y5/boca_mama2.png);
+  }
+  38% {
+      background-image: url(../img/frame4y5/boca_mama3.png);
+  }
+  40% {
+      background-image: url(../img/frame4y5/boca_mama1.png);
+  }
+  42% {
+      background-image: url(../img/frame4y5/boca_mama2.png);
+  }
+  44% {
+      background-image: url(../img/frame4y5/boca_mama1.png);
+  }
+  46% {
+      background-image: url(../img/frame4y5/boca_mama1.png);
+  }
+  48% {
+      background-image: url(../img/frame4y5/boca_mama1.png);
+  }
+  100% {
+      background-image: url(../img/frame4y5/boca_mama1.png);
+  }
+}

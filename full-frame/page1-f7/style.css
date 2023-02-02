@@ -1,0 +1,300 @@
+.frame-7 {
+  width: 68%;
+  height: 100%;
+  bottom: 1%;
+  right: 0.7%;
+  background: #b0d3de;
+  position: absolute;
+  overflow: hidden;
+  border: 0.2em solid #000000;
+}
+.frame-7 img:nth-child(1){
+  width: 102%;
+  height: auto;
+  bottom: -1%;
+  left: 0%;
+}
+
+.frame-7 .text img:nth-child(1){
+  width: 65%;
+  height: auto;
+  left: 24%;
+  top: 2%;
+}
+.frame-7 .text img:nth-child(2){
+  width: 30%;
+  height: auto;
+  top: 14%;
+  left: 2%;
+}
+.frame-7 .text img:nth-child(3){
+  width: 30%;
+  height: auto;
+  top: 14%;
+  left: 35%;
+}
+.frame-7 .text img:nth-child(4){
+  width: 30%;
+  height: auto;
+  top: 14%;
+  right: 2%;
+}
+.frame-7 .mother{
+  width: 19%;
+  height: 37%;
+  left: 2%;
+  bottom: 23%;
+  top: auto;
+  position: absolute;
+}
+.frame-7 .mother img:nth-child(1){
+  width: 100%;
+  height: auto;
+  left: 0%;
+  top: auto;
+}
+.mother-mouth{
+  width: 17.1%;
+  height: 10%;
+  position: absolute;
+  left: 47%;
+  bottom: 56%;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: mother-mouth 4s infinite cubic-bezier(1, -0.07, 0.22, 1.02);
+}
+.frame-7 .mother-eyes{
+  width: 53%;
+  height: 15%;
+  right: 18%;
+  top: 21%;
+  position: absolute;
+}
+.frame-7 .mother .mother-eyes img:nth-child(1){
+  width: 100%;
+  height: auto;
+  right: 0%;
+  top: 0%;
+}
+.frame-7 .mother .mother-eyes img:nth-child(2){
+  width: 80%;
+  height: auto;
+  right: 7%;
+  top: 10%;
+  left: auto;
+  transform-origin: center;
+  animation: mother-eye-pupils 10s infinite ease;
+}
+.frame-7 .mother .mother-eyes img:nth-child(3){
+  width: 135%;
+  height: auto;
+  right: -20%;
+  top: -4%;
+  left: auto;
+}
+.frame-7 .father{
+  width: 19%;
+  height: 52%;
+  left: 20%;
+  right: auto;
+  bottom: 23%;
+  top: auto;
+  position: absolute;
+}
+.frame-7 .father img:nth-child(1){
+  width: 92%;
+  height: auto;
+  left: 0%;
+  top: auto;
+  bottom: 0%;
+}
+.frame-7 .father img:nth-child(2){
+  width: 15%;
+  height: auto;
+  left: 13%;
+  top: 31%;
+  transform-origin: left bottom;
+  animation: eyerbrowns 2s infinite ease;
+}
+.frame-7 .father img:nth-child(3){
+  width: 15%;
+  height: auto;
+  right: 31%;
+  top: 31%;
+  transform-origin: right bottom;
+  animation: eyerbrowns-2 2s infinite ease;
+}
+.frame-7 .fother-mostach{
+  width: 35%;
+  height: 13%;
+  top: 44%;
+  left: 22%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  transform-origin: center;
+  animation: fother-mostach 1.5s infinite ease;
+}
+.frame-7 .father-eyes{
+  width: 54%;
+  height: 15%;
+  right: 31%;
+  top: 35%;
+  position: absolute;
+}
+.frame-7 .father .father-eyes img:nth-child(1){
+  width: 100%;
+  height: auto;
+  right: 0%;
+  top: 0%;
+}
+.frame-7 .father .father-eyes img:nth-child(2){
+  width: 80%;
+  height: auto;
+  right: 12%;
+  top: 10%;
+  left: auto;
+  transform-origin: center;
+  animation: father-eye-pupils 8s infinite ease;
+}
+.frame-7 .vale{
+  width: 46%;
+  height: 68%;
+  right: 6%;
+  bottom: 2%;
+  top: auto;
+  position: absolute;
+}
+.frame-7 .vale img:nth-child(1){
+  width: 62%;
+  height: auto;
+  right: 10%;
+  left: auto;
+  top: auto;
+  bottom: 0;
+}
+.frame-7 .vale img:nth-child(2){
+  width: 100%;
+  height: auto;
+  left: 0%;
+  top: 6%;
+}
+.frame-7 .vale-eyes{
+  width: 47%;
+  height: 13%;
+  top: 34%;
+  right: 12%;
+  left: auto;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: vale-eyes 2s infinite alternate ease-out;
+}
+
+@keyframes father-eye-pupils {
+  0%{transform: translate(0%);}
+  50%{transform: translate(3%);}
+  100%{transform: translate(0%);}
+}
+@keyframes mother-eye-pupils {
+  0%{transform: translate(-2%);}
+  50%{transform: translate(0%);}
+  100%{transform: translate(-2%);}
+}
+@keyframes eyerbrowns{
+  0%{ transform: rotate(0deg);}
+  5% { transform: rotate(5deg);}
+  100% { transform: rotate(0deg);}
+}
+@keyframes eyerbrowns-2{
+  0%{ transform: rotate(5deg);}
+  5% { transform: rotate(0deg);}
+  100% { transform: rotate(5deg);}
+}
+@keyframes fother-mostach{
+  0% { background-image: url("../img/frame4y5/bigote-papa-1.png");}
+  5% { background-image: url("../img/frame4y5/bigote-papa-2.png");}
+  8% { background-image: url("../img/frame4y5/bigote-papa-3.png");}
+  12% { background-image: url("../img/frame4y5/bigote-papa-2.png");}
+  15% { background-image: url("../img/frame4y5/bigote-papa-1.png");}
+  100% { background-image: url("../img/frame4y5/bigote-papa-1.png");}
+}
+@keyframes mother-mouth {
+  0% {
+    background-image: url(../img/frame4y5/boca_mama1.png);
+  }
+  2% {
+      background-image: url(../img/frame4y5/boca_mama2.png;
+  }
+  4% {
+      background-image: url(../img/frame4y5/boca_mama3.png);
+  }
+  6% {
+      background-image: url(../img/frame4y5/boca_mama2.png);
+  }
+  8% {
+      background-image: url(../img/frame4y5/boca_mama1.png);
+  }
+  10% {
+      background-image: url(../img/frame4y5/boca_mama2.png);
+  }
+  12% {
+      background-image: url(../img/frame4y5/boca_mama3.png);
+  }
+  14% {
+      background-image: url(../img/frame4y5/boca_mama2.png);
+  }
+  16% {
+      background-image: url(../img/frame4y5/boca_mama1.png;
+  }
+  18% {
+      background-image: url(../img/frame4y5/boca_mama2.png);
+  }
+  30% {
+      background-image: url(../img/frame4y5/boca_mama3.png);
+  }
+  32% {
+      background-image: url(../img/frame4y5/boca_mama2.png);
+  }
+  34% {
+      background-image: url(../img/frame4y5/boca_mama1.png);
+  }
+  36% {
+      background-image: url(../img/frame4y5/boca_mama2.png);
+  }
+  38% {
+      background-image: url(../img/frame4y5/boca_mama3.png);
+  }
+  40% {
+      background-image: url(../img/frame4y5/boca_mama1.png);
+  }
+  42% {
+      background-image: url(../img/frame4y5/boca_mama2.png);
+  }
+  44% {
+      background-image: url(../img/frame4y5/boca_mama1.png);
+  }
+  46% {
+      background-image: url(../img/frame4y5/boca_mama1.png);
+  }
+  48% {
+      background-image: url(../img/frame4y5/boca_mama1.png);
+  }
+  100% {
+      background-image: url(../img/frame4y5/boca_mama1.png);
+  }
+}
+@keyframes vale-eyes {
+  0% {
+      background-image: url("../img/frame3/ojos-vale-1.png");
+  }
+  5% {
+      background-image: url("../img/frame3/ojos-vale-2.png");
+  }
+  10%{
+    background-image: url("../img/frame3/ojos-vale-3.png");
+  }
+  100% {
+    background-image: url("../img/frame3/ojos-vale-3.png");
+  }
+}

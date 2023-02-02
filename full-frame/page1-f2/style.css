@@ -1,0 +1,192 @@
+.inner-box {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+/* FRAME 2 */
+
+.frame-2 {
+  width: 100%;
+  height: 100%;
+  bottom: 0%;
+  right: 33.7%;
+  border: 0.2em solid #000000;
+  background: #7DB4D8;
+  position: absolute;
+  overflow: hidden;
+}
+.back-frame-2{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: auto 80%;
+  background-image: url("../img/frame2/nubes.png");
+  background-repeat: repeat-x;
+  animation: back-frame-2 300s infinite linear;
+}
+.frame-2 .montain {
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+.frame-2 .montain img:nth-child(1){
+  width: 74%;
+  height: auto;
+  bottom: 10%;
+  right: -13%;
+}
+.frame-2 .montain img:nth-child(2){
+  width: 24%;
+  height: auto;
+  bottom: 26%;
+  right: 10%;
+}
+.frame-2 .content-comet{
+  width: 40%;
+  height: 67%;
+  top: -1%;
+  right: 0%;
+  position: absolute;
+  transform-origin: bottom left;
+  animation: content-comet 3s infinite linear;
+}
+.frame-2 .content-comet img:nth-child(1){
+  width: auto;
+  height: 63%;
+  bottom: 0;
+  left: 0%;
+}
+.frame-2 .comet-head {
+  width: 100%;
+  height: 40%;
+  top: 15%;
+  left: -3%;
+  position: absolute;
+  transform-origin: center;
+  animation: comet-head 1.5s infinite linear;
+}
+.frame-2 .comet-head img:nth-child(1){
+  width: 100%;
+  height: auto;
+  bottom: 0;
+  left: 0%;
+}
+.frame-2 .comet-tail {
+  width: 20%;
+  height: 55%;
+  top: 85%;
+  right: 10%;
+  position: absolute;
+  transform-origin: top left;
+  animation: comet-tail 1s infinite linear;
+}
+.frame-2 .comet-tail img:nth-child(1){
+  width: 100%;
+  height: auto;
+  bottom: 9%;
+  left: 0%;
+}
+.friends {
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+.frame-2 .friends img:nth-child(1){
+  width: 140%;
+  height: auto;
+  bottom: -53%;
+  right: -20%;
+  transform-origin: center;
+  animation: mountain 30s infinite linear;
+}
+.amigo{
+  width: 33.6%;
+  height: 30%;
+  position: absolute;
+  bottom: 16%;
+  left: 17.6%;
+  transform: rotate(-7deg);
+  background: url(../img/frame2/amigo-1.png);
+  background-size: auto 100% ;
+  margin: 0 auto;
+  animation: movement 0.8s steps(5) infinite;
+}
+.amiga{
+  width: 35.5%;
+  height: 30%;
+  position: absolute;
+  bottom: 10%;
+  left: 3.6%;
+  transform: rotate(-17deg);
+  background: url(../img/frame2/amigo-2.png);
+  background-size: auto 100% ;
+  margin: 0 auto;
+  animation: movement 0.8s steps(5) infinite;
+}
+@keyframes movement {
+  0% {
+    background-position-x: -123.1%;
+  }
+  100% {
+      background-position-x: 0;
+  }
+}
+@keyframes mountain {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(-360deg);
+  }
+}
+@keyframes back-frame-2 {
+  100% {
+    background-position: 1104px 0px;
+  }
+}
+@keyframes content-comet{
+  0% {transform: skew(1deg) rotate(-10deg);}
+  10% {transform: skew(2deg) rotate(-8deg);}
+  20% {transform: skew(5deg) rotate(3deg);}
+  30% {transform: skew(5deg) rotate(5deg);}
+  40% {transform: skew(2deg) rotate(-8deg);}
+  100% {transform: skew(1deg) rotate(-10deg);}
+}
+@keyframes comet-head{
+  0% {transform: skew(1deg);}
+  10% {transform: skew(2deg);}
+  20% {transform: skew(5deg);}
+  30% {transform: skew(5deg);}
+  40% {transform: skew(2deg);}
+  100% {transform: skew(1deg);}
+}
+@keyframes comet-tail{
+  0% {
+    transform: rotate(-10deg);
+  }
+  10% {
+      transform: rotate(-5deg);
+  }
+  20% {
+      transform: rotate(-10deg);
+  }
+  30% {
+      transform: rotate(-12deg);
+  }
+  40% {
+      transform: rotate(-8deg);
+  }
+  100% {
+      transform: rotate(-10deg);
+  }
+}
