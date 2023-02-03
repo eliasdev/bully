@@ -6,7 +6,7 @@
   background: #b0d3de;
   position: absolute;
   overflow: hidden;
-  border: 0.2em solid #000000;
+  /* border: 0.2em solid #000000; */
 }
 .frame-6 img:nth-child(1){
   width: 101%;
@@ -87,7 +87,7 @@
 }
 .frame-6 .father{
   width: 24%;
-  height: 66%;
+  height: 68%;
   right: 24%;
   bottom: 2%;
   top: auto;
@@ -144,7 +144,7 @@
   width: 80%;
   height: auto;
   right: 12%;
-  top: 10%;
+  top: 22%;
   left: auto;
   transform-origin: center;
   animation: father-eye-pupils 8s infinite ease;

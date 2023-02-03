@@ -47,7 +47,8 @@
   height: auto;
   left: 0%;
   right: auto;
-  top: 6%;
+  top: 5%;
+  bottom: auto;
 }
 .frame-5 .mother-mouth{
   width: 17.1%;
@@ -63,7 +64,7 @@
   width: 54%;
   height: 15%;
   right: 17%;
-  top: 22%;
+  top: 24%;
   position: absolute;
 }
 .frame-5 .mother .mother-eyes img:nth-child(1){
@@ -85,7 +86,7 @@
   width: 135%;
   height: auto;
   right: -20%;
-  top: -4%;
+  top: -10%;
   left: auto;
 }
 .frame-5 .father{
