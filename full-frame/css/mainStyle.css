@@ -401,3 +401,8 @@ img {
   left: 0%;
   position: absolute;
 }
+.btn-1 , .btn-2 ,.btn-3  {
+  width: 30%;
+  height: 30%;
+  position: absolute;
+}
