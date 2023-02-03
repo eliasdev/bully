@@ -30,10 +30,10 @@
   left: 9%;
 }
 .frame-2 .text img:nth-child(3){
-  width: 31%;
+  width: 25%;
   height: auto;
-  top: 20%;
-  right: 15%;
+  top: 12%;
+  right: 30%;
 }
 .frame-2 .mother{
   width: 32%;
@@ -89,10 +89,10 @@
   left: auto;
 }
 .frame-2 .father{
-  width: 33%;
-  height: 86%;
-  left: 31%;
-  bottom: 0;
+  width: 29%;
+  height: 75%;
+  left: 33%;
+  bottom: 8%;
   position: absolute;
 }
 .frame-2 .father img:nth-child(1){
@@ -158,6 +158,39 @@
   background-size: 100% auto;
   transform-origin: center;
   animation: fother-mostach 8s infinite ease;
+}
+.frame-2 .vale{
+  width: 46%;
+  height: 68%;
+  right: 6%;
+  bottom: 2%;
+  top: auto;
+  position: absolute;
+}
+.frame-2 .vale img:nth-child(1){
+  width: 62%;
+  height: auto;
+  right: 10%;
+  left: auto;
+  top: auto;
+  bottom: 0;
+}
+.frame-2 .vale img:nth-child(2){
+  width: 100%;
+  height: auto;
+  left: 0%;
+  top: 6%;
+}
+.frame-2 .vale-eyes{
+  width: 47%;
+  height: 13%;
+  top: 34%;
+  right: 12%;
+  left: auto;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: vale-eyes 2s infinite alternate ease-out;
 }
 @keyframes father-eye-pupils {
   0%{transform: translate(0%);}
@@ -250,5 +283,19 @@
   }
   100% {
       background-image: url(../img/frame4y5/boca_mama1.png);
+  }
+}
+@keyframes vale-eyes {
+  0% {
+      background-image: url("../img/frame3/ojos-vale-1.png");
+  }
+  5% {
+      background-image: url("../img/frame3/ojos-vale-2.png");
+  }
+  10%{
+    background-image: url("../img/frame3/ojos-vale-3.png");
+  }
+  100% {
+    background-image: url("../img/frame3/ojos-vale-3.png");
   }
 }
