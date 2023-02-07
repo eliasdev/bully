@@ -1,88 +1,117 @@
-.text{
+.inner-box {
   width: 100%;
-  height: 30%;
-  top: 0%;
-  left: 0%;
-  position: absolute;
-}
-.frame-7 {
-  width: 68%;
   height: 100%;
-  bottom: 1%;
-  right: 0.7%;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+/* FRAME 1 */
+
+.frame-1{
+  width: 60%;
+  height: 100%;
+  bottom: 0%;
+  left: 0%;
   background: #b0d3de;
   position: absolute;
   overflow: hidden;
-  /* border: 0.2em solid #000000; */
 }
-.frame-7 img:nth-child(1){
-  width: 102%;
-  height: auto;
-  bottom: -1%;
+.school{
+  width: 100%;
+  height: 100%;
+  bottom: 0%;
   left: 0%;
+  position: absolute;
 }
-.frame-7 .text img:nth-child(1){
-  width: 65%;
-  height: auto;
-  left: 24%;
-  top: 2%;
+.back-frame-1{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: auto 80%;
+  background-image: url("../img/frame1/cielo.png");
+  background-repeat: repeat-x;
+  animation: back-frame-1 300s infinite linear;
 }
-.frame-7 .text .btn-1{
-  left: 0;
+.frame-1 .school img:nth-child(1){
+  width: auto;
+  height: 61%;
+  left: -16%;
   bottom: 0;
 }
-.frame-7 .text .btn-2{
-  right: 34%;
+.frame-1 .school img:nth-child(2){
+  width: 30%;
+  height: auto;
+  right: 16%;
+  bottom: 6%;
+}
+.sun {
+  width: 35%;
+  height: 35%;
+  right: 5%;
+  top: -7%;
+  position: absolute;
+}
+.frame-1 .sun img:nth-child(1){
+  width: 100%;
+  height: auto;
+  right: 0;
   bottom: 0;
+  opacity: 0;
+  transform-origin: center;
+  filter: blur(2px);
+  animation: sun-f1 5s infinite linear;
 }
-.frame-7 .text .btn-3{
-  right:  7%;
-  bottom: 0;
-}
-.frame-7 .text .btn-1 img:nth-child(1){
+.frame-1 .sun img:nth-child(2){
   width: 100%;
   height: auto;
-  top: 0%;
-  left: 0%;
-}
-.frame-7 .text .btn-2 img:nth-child(1){
-  width: 100%;
-  height: auto;
-  top: 0%;
-  left: 0%;
-}
-.frame-7 .text .btn-3 img:nth-child(1){
-  width: 100%;
-  height: auto;
-  top: 0%;
   right: 0%;
+  left: auto;
+  bottom: 0;
+  opacity: 0;
+  transform-origin: center;
+  filter: blur(1px);
+  animation: sun-f1 5s 1s infinite linear;
 }
-.btn-1:hover .hover{
-  opacity: 0.3;
-}
-.btn-2:hover .hover{
-  opacity: 0.3;
-}
-.btn-3:hover .hover{
-  opacity: 0.5;
-}
-.hover {
-  opacity: 1;
-  display: block;
+.frame-1 .sun img:nth-child(3){
   width: 100%;
   height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
+  right: -1%;
+  left: auto;
+  bottom: 0;
+  filter: blur(1px);
 }
-.frame-7 .mother{
-  width: 19%;
-  height: 37%;
-  left: 2%;
-  bottom: 23%;
+.text{
+  width: 100%;
+  height: 100%;
+  bottom: 0%;
+  left: 0%;
+  position: absolute;
+}
+.frame-1 .text img:nth-child(1){
+  width: 75%;
+  height: auto;
+  left: 1%;
+  top: 15%;
+}
+.frame-1 .text img:nth-child(2){
+  width: 75%;
+  height: auto;
+  right: 0%;
+  top: 37%;
+}
+.frame-1 .mother{
+  width: 22%;
+  height: 40%;
+  left: 8%;
+  bottom: 9%;
   top: auto;
   position: absolute;
 }
-.frame-7 .mother img:nth-child(1){
+.frame-1 .mother img:nth-child(1){
   width: 100%;
   height: auto;
   left: 0%;
@@ -98,20 +127,20 @@
   background-size: 100% auto;
   animation: mother-mouth 4s infinite cubic-bezier(1, -0.07, 0.22, 1.02);
 }
-.frame-7 .mother-eyes{
-  width: 53%;
+.frame-1 .mother-eyes{
+  width: 54%;
   height: 15%;
-  right: 18%;
-  top: 19%;
+  right: 17%;
+  top: 23%;
   position: absolute;
 }
-.frame-7 .mother .mother-eyes img:nth-child(1){
+.frame-1 .mother .mother-eyes img:nth-child(1){
   width: 100%;
   height: auto;
   right: 0%;
   top: 0%;
 }
-.frame-7 .mother .mother-eyes img:nth-child(2){
+.frame-1 .mother .mother-eyes img:nth-child(2){
   width: 80%;
   height: auto;
   right: 7%;
@@ -120,112 +149,111 @@
   transform-origin: center;
   animation: mother-eye-pupils 10s infinite ease;
 }
-.frame-7 .mother .mother-eyes img:nth-child(3){
+.frame-1 .mother .mother-eyes img:nth-child(3){
   width: 135%;
   height: auto;
   right: -20%;
   top: -4%;
   left: auto;
 }
-.frame-7 .father{
-  width: 19%;
-  height: 53%;
-  left: 20%;
+.frame-1 .father{
+  width: 23%;
+  height: 47%;
+  left: 24%;
   right: auto;
-  bottom: 23%;
+  bottom: 9%;
   top: auto;
   position: absolute;
 }
-.frame-7 .father img:nth-child(1){
-  width: 92%;
+.frame-1 .father img:nth-child(1){
+  width: 88%;
   height: auto;
   left: 0%;
   top: auto;
   bottom: 0%;
 }
-.frame-7 .father img:nth-child(2){
+.father-face{
+  width: 100%;
+  height: 38%;
+  left: 0%;
+  right: auto;
+  top: 6%;
+  /* top: auto; */
+  position: absolute;
+}
+.frame-1 .father .father-face img:nth-child(1){
   width: 15%;
   height: auto;
-  left: 13%;
+  left: 24%;
   top: 31%;
+  bottom: auto;
   transform-origin: left bottom;
   animation: eyerbrowns 2s infinite ease;
 }
-.frame-7 .father img:nth-child(3){
+.frame-1 .father .father-face img:nth-child(2){
   width: 15%;
   height: auto;
-  right: 31%;
+  right: 23%;
   top: 31%;
   transform-origin: right bottom;
   animation: eyerbrowns-2 2s infinite ease;
 }
-.frame-7 .fother-mostach{
+.frame-1 .father-face .fother-mostach{
   width: 35%;
   height: 13%;
-  top: 42%;
-  left: 22%;
+  bottom: 17%;
+  left: 32%;
   position: absolute;
   background-repeat: no-repeat;
   background-size: 100% auto;
   transform-origin: center;
   animation: fother-mostach 1.5s infinite ease;
 }
-.frame-7 .father-eyes{
-  width: 54%;
-  height: 15%;
-  right: 31%;
-  top: 35%;
+.frame-1 .father-face .father-eyes{
+  width: 62%;
+  height: 25%;
+  right: 23%;
+  top: 49%;
   position: absolute;
 }
-.frame-7 .father .father-eyes img:nth-child(1){
-  width: 100%;
+.frame-1 .father .father-eyes img:nth-child(1){
+  width: 83%;
   height: auto;
   right: 0%;
+  left: auto;
   top: 0%;
+  bottom: auto;
+  animation: none;
 }
-.frame-7 .father .father-eyes img:nth-child(2){
-  width: 80%;
+.frame-1 .father .father-eyes img:nth-child(2){
+  width: 69%;
   height: auto;
-  right: 12%;
-  top: 10%;
+  right: 10%;
+  top: 16%;
   left: auto;
   transform-origin: center;
   animation: father-eye-pupils 8s infinite ease;
 }
-.frame-7 .vale{
-  width: 46%;
-  height: 68%;
-  right: 6%;
-  bottom: 2%;
-  top: auto;
-  position: absolute;
-}
-.frame-7 .vale img:nth-child(1){
-  width: 62%;
+.frame-1 .text img:nth-child(1){
+  width: 63%;
   height: auto;
-  right: 10%;
-  left: auto;
-  top: auto;
-  bottom: 0;
+  top: 9%;
+  left: 5%;
+  bottom: auto;
+  right: auto;
 }
-.frame-7 .vale img:nth-child(2){
-  width: 100%;
+.frame-1 .text img:nth-child(2){
+  width: 31%;
   height: auto;
-  left: 0%;
-  top: 6%;
+  top: 28%;
+  left: 19%;
 }
-.frame-7 .vale-eyes{
-  width: 47%;
-  height: 13%;
-  top: 34%;
-  right: 12%;
-  left: auto;
-  position: absolute;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  animation: vale-eyes 2s infinite alternate ease-out;
+.frame-1 .text img:nth-child(3){
+  width: 31%;
+  height: auto;
+  top: 40%;
+  right: 15%;
 }
-
 @keyframes father-eye-pupils {
   0%{transform: translate(0%);}
   50%{transform: translate(3%);}
@@ -319,17 +347,16 @@
       background-image: url(../img/frame4y5/boca_mama1.png);
   }
 }
-@keyframes vale-eyes {
-  0% {
-      background-image: url("../img/frame3/ojos-vale-1.png");
-  }
-  5% {
-      background-image: url("../img/frame3/ojos-vale-2.png");
-  }
-  10%{
-    background-image: url("../img/frame3/ojos-vale-3.png");
-  }
+
+@keyframes back-frame-1 {
   100% {
-    background-image: url("../img/frame3/ojos-vale-3.png");
+    background-position: 1104px 0px;
   }
+}
+@keyframes sun-f1 {
+  0%{transform: scale(0.99); opacity: 0;}
+  25%{transform: scale(1.03); opacity: 0.3;}
+  50%{transform: scale(1.05); opacity: 0.5;}
+  75%{transform: scale(1.03); opacity: 0.3;}
+  100%{transform: scale(1.05); opacity: 0;}
 }
