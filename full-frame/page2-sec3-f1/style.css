@@ -242,8 +242,6 @@
   bottom: auto;
   right: auto;
 }
-
-
 @keyframes back-frame-1 {
   100% {
     background-position: 1104px 0px;
