@@ -184,27 +184,12 @@
   transform-origin: center;
   animation: father-eye-pupils 8s infinite ease;
 }
-.frame-3 .teacher{
-  width: 19.5%;
-  height: 59%;
-  right: 35%;
-  bottom: 6%;
-  top: auto;
-  position: absolute;
-}
 .frame-3 .vale img:nth-child(1){
   width: 65%;
   height: auto;
   left: 18%;
   bottom: 0%;
   top: auto;
-  position: absolute;
-}
-.teacher-face{
-  width: 100%;
-  height: 46%;
-  right: -1%;
-  top: 2%;
   position: absolute;
 }
 .frame-3 .vale{
@@ -281,7 +266,160 @@
   background-size: 100% auto;
   animation: vale-eyes 2s infinite alternate ease-out;
 }
+.frame-3 .teacher{
+  width: 14.5%;
+  height: 50.6%;
+  right: 38%;
+  bottom: 6%;
+  top: auto;
+  position: absolute;
+}
+.teacher-body{
+  width: 100%;
+  height: 72%;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+.teacher-body img:nth-child(1){
+  width: 24%;
+  height: auto;
+  left: 66%;
+  top: 7%;
+}
+.teacher-body img:nth-child(2){
+  width: 24%;
+  height: auto;
+  left: 10%;
+  top: 7%;
+}
+.teacher-body img:nth-child(3){
+  width: 65%;
+  height: auto;
+  left: 18%;
+  bottom: 0%;
+  top: auto;
 
+}
+.teacher-head{
+  width: 100%;
+  height: 29%;
+  right: -0%;
+  top: 0;
+  position: absolute;
+}
+.teacher-head img:nth-child(1){
+  width: 101%;
+  height: auto;
+  left: 1%;
+  top: -51%;
+}
+.teacher-face{
+  width: 100%;
+  height: 100%;
+  right: -9%;
+  top: -4%;
+  position: absolute;
+  transform-origin: bottom center;
+  /* animation: vale-head 5s infinite ease; */
+}
+.frame-3 .teacher-eyes{
+  width: 54%;
+  height: 37%;
+  top: 34%;
+  right: 27%;
+  left: auto;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: teacher-eyes 2s infinite alternate ease-out;
+}
+.teacher-eyebrowns{
+  width: 57%;
+  height: 33%;
+  top: 22%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  position: absolute;
+}
+.teacher-eyebrowns img:nth-child(1){
+  width: 28%;
+  height: auto;
+  left: 0%;
+  top: 0%;
+}
+.teacher-eyebrowns img:nth-child(2){
+  width: 28%;
+  height: auto;
+  right: 6%;
+  top: 0%;
+}
+.reloj{
+  width: 10%;
+  height: 17%;
+  top: 14.8%;
+  left: 2%;
+  position: absolute;
+}
+.frame-3 .reloj img:nth-child(1){
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0%;
+}
+.frame-3 .reloj img:nth-child(2){
+  width: 18%;
+  height: auto;
+  top: 50.7%;
+  left: 49%;
+  transform-origin: 8.4% 4.8%;
+  transform: rotateZ(0deg);
+  animation: minutes 3600s steps(60) infinite;
+}
+.frame-3 .reloj img:nth-child(3){
+  width: 11%;
+  height: auto;
+  top: 22%;
+  left: 40.1%;
+  transform-origin: 96.0% 95.5%;
+  transform: rotateZ(0deg);
+  animation: seconds 60s steps(60) infinite;
+}
+.teacher-mouth {
+  width: 16.1%;
+  height: 22%;
+  position: absolute;
+  left: 39%;
+  bottom: 3%;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: teacher-mouth 4s infinite cubic-bezier(1, -0.07, 0.22, 1.02);
+}
+@keyframes minutes {
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes seconds {
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes vale-eyes {
+  0% {
+      background-image: url("../img/frame3/ojos-vale-1.png");
+  }
+  5% {
+      background-image: url("../img/frame3/ojos-vale-2.png");
+  }
+  10%{
+    background-image: url("../img/frame3/ojos-vale-3.png");
+  }
+  100% {
+    background-image: url("../img/frame3/ojos-vale-3.png");
+  }
+}
 @keyframes vale-head{
   0%{ transform: rotate(0deg);}
   5% { transform: rotate(3deg);}
@@ -305,58 +443,6 @@
   25% { transform: scale(1.02);}
   60% { transform: scale(1);}
   100% { transform: scale(1);}
-}
-.reloj{
-  width: 10.6%;
-  height: 20%;
-  top: 12.8%;
-  left: 3%;
-  position: absolute;
-}
-.frame-3 .reloj img:nth-child(1){
-  width: auto;
-  height: 100%;
-  top: 0;
-  left: 0%;
-  bottom: auto;
-}
-.frame-3 .reloj img:nth-child(2){
-  width: 18%;
-  height: auto;
-  top: 49%;
-  left: 49%;
-  transform-origin: top left;
-  transform: rotateZ(0deg);
-  animation: minutes 3600s steps(60) infinite;
-}
-.frame-3 .reloj img:nth-child(3){
-  width: 11%;
-  height: auto;
-  top: 20%;
-  left: 39.6%;
-  transform-origin: bottom right;
-  transform: rotateZ(0deg);
-  animation: seconds 60s steps(60) infinite;
-}
-.teacher-mouth {
-  width: 16.1%;
-  height: 22%;
-  position: absolute;
-  left: 47%;
-  bottom: 31%;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  animation: teacher-mouth 4s infinite cubic-bezier(1, -0.07, 0.22, 1.02);
-}
-@keyframes minutes {
-  to {
-    transform: rotateZ(360deg);
-  }
-}
-@keyframes seconds {
-  to {
-    transform: rotateZ(360deg);
-  }
 }
 @keyframes father-eye-pupils {
   0%{transform: translate(0%);}
@@ -406,83 +492,84 @@
   15% { background-image: url("../img/frame4y5/bigote-papa-1.png");}
   100% { background-image: url("../img/frame4y5/bigote-papa-1.png");}
 }
+
 @keyframes teacher-mouth {
   0% {
-    background-image: url(../img/page-2/sec3-frame-3/maestra-boca-1.png);
+    background-image: url(../img/page-2/sec3-frame-2/boca-maestra-3.png);
   }
   2% {
-      background-image: url(../img/page-2/sec3-frame-3/maestra-boca-2.png);
+      background-image: url(../img/page-2/sec3-frame-2/boca-maestra-2.png);
   }
   4% {
-      background-image: url(../img/page-2/sec3-frame-3/maestra-boca-3.png);
+      background-image: url(../img/page-2/sec3-frame-2/boca-maestra-1.png);
   }
   6% {
-      background-image: url(../img/page-2/sec3-frame-3/maestra-boca-2.png);
+      background-image: url(../img/page-2/sec3-frame-2/boca-maestra-2.png);
   }
   8% {
-      background-image: url(../img/page-2/sec3-frame-3/maestra-boca-1.png);
+      background-image: url(../img/page-2/sec3-frame-2/boca-maestra-3.png);
   }
   10% {
-      background-image: url(../img/page-2/sec3-frame-3/maestra-boca-2.png);
+      background-image: url(../img/page-2/sec3-frame-2/boca-maestra-2.png);
   }
   12% {
-      background-image: url(../img/page-2/sec3-frame-3/maestra-boca-3.png);
+      background-image: url(../img/page-2/sec3-frame-2/boca-maestra-1.png);
   }
   14% {
-      background-image: url(../img/page-2/sec3-frame-3/maestra-boca-2.png);
+      background-image: url(../img/page-2/sec3-frame-2/boca-maestra-2.png);
   }
   16% {
-      background-image: url(../img/page-2/sec3-frame-3/maestra-boca-1.png);
+      background-image: url(../img/page-2/sec3-frame-2/boca-maestra-3.png);
   }
   18% {
-      background-image: url(../img/page-2/sec3-frame-3/maestra-boca-2.png);
+      background-image: url(../img/page-2/sec3-frame-2/boca-maestra-2.png);
   }
   30% {
-      background-image: url(../img/page-2/sec3-frame-3/maestra-boca-3.png);
+      background-image: url(../img/page-2/sec3-frame-2/boca-maestra-1.png);
   }
   32% {
-      background-image: url(../img/page-2/sec3-frame-3/maestra-boca-2.png);
+      background-image: url(../img/page-2/sec3-frame-2/boca-maestra-2.png);
   }
   34% {
-      background-image: url(../img/page-2/sec3-frame-3/maestra-boca-1.png);
+      background-image: url(../img/page-2/sec3-frame-2/boca-maestra-3.png);
   }
   36% {
-      background-image: url(../img/page-2/sec3-frame-3/maestra-boca-2.png);
+      background-image: url(../img/page-2/sec3-frame-2/boca-maestra-2.png);
   }
   38% {
-      background-image: url(../img/page-2/sec3-frame-3/maestra-boca-3.png);
+      background-image: url(../img/page-2/sec3-frame-2/boca-maestra-1.png);
   }
   40% {
-      background-image: url(../img/page-2/sec3-frame-3/maestra-boca-1.png);
+      background-image: url(../img/page-2/sec3-frame-2/boca-maestra-3.png);
   }
   42% {
-      background-image: url(../img/page-2/sec3-frame-3/maestra-boca-2.png);
+      background-image: url(../img/page-2/sec3-frame-2/boca-maestra-2.png);
   }
   44% {
-      background-image: url(../img/page-2/sec3-frame-3/maestra-boca-1.png);
+      background-image: url(../img/page-2/sec3-frame-2/boca-maestra-1.png);
   }
   46% {
-      background-image: url(../img/page-2/sec3-frame-3/maestra-boca-1.png);
+      background-image: url(../img/page-2/sec3-frame-2/boca-maestra-1.png);
   }
   48% {
-      background-image: url(../img/page-2/sec3-frame-3/maestra-boca-1.png);
+      background-image: url(../img/page-2/sec3-frame-2/boca-maestra-1.png);
   }
   100% {
-      background-image: url(../img/page-2/sec3-frame-3/maestra-boca-1.png);
+      background-image: url(../img/page-2/sec3-frame-2/boca-maestra-1.png);
   }
 }
-@keyframes vale-eyes {
+@keyframes teacher-eyes {
   0% {
-      background-image: url("../img/frame3/ojos-vale-1.png");
+    background-image: url("../img/page-2/sec3-frame-2/ojo-maestra-3.png");
   }
   5% {
-      background-image: url("../img/frame3/ojos-vale-2.png");
+      background-image: url("../img/page-2/sec3-frame-2/ojo-maestra-2.png");
   }
   10%{
-    background-image: url("../img/frame3/ojos-vale-3.png");
+    background-image: url("../img/page-2/sec3-frame-2/ojo-maestra-1.png");
   }
-  100% {
-    background-image: url("../img/frame3/ojos-vale-3.png");
+  20%, 100% {
+    background-image: url("../img/page-2/sec3-frame-2/ojo-maestra-2.png");
   }
 }
 @keyframes mother-mouth {

@@ -93,7 +93,7 @@
   height: 10%;
   position: absolute;
   left: 47%;
-  bottom: 56%;
+  bottom: 58%;
   background-repeat: no-repeat;
   background-size: 100% auto;
   animation: mother-mouth 4s infinite cubic-bezier(1, -0.07, 0.22, 1.02);
@@ -159,7 +159,7 @@
   transform-origin: right bottom;
   animation: eyerbrowns-2 2s infinite ease;
 }
-.frame-7 .fother-mostach{
+.frame-7 .father-mostach{
   width: 35%;
   height: 13%;
   top: 42%;
