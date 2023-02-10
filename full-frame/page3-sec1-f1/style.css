@@ -6,6 +6,13 @@
   left: 0%;
   position: absolute;
 }
+.frame-1 .text img:nth-child(1){
+  width: 39%;
+  height: auto;
+  left: 17%;
+  top: 22%;
+  bottom: auto;
+}
 .frame-1 {
   width: 90%;
   height: 77%;
@@ -22,18 +29,17 @@
   bottom: 0;
   left: 0%;
 }
-.frame-1 .text img:nth-child(1){
-  width: 39%;
+.frame-1 img:nth-child(2){
+  width: 22%;
   height: auto;
-  left: 1%;
-  top: 15%;
-  bottom: auto;
+  top: 32%;
+  right: 2%;
 }
 .frame-1 .mother{
-  width: 15%;
-  height: 53%;
-  left: 17%;
-  bottom: 1%;
+  width: 13%;
+  height: 46%;
+  left: 55%;
+  bottom: 30%;
   top: auto;
   position: absolute;
 }
@@ -43,6 +49,12 @@
   left: 0%;
   top: auto;
   bottom: 0;
+}
+.frame-1 .mother img:nth-child(2) {
+  width: 20%;
+  height: auto;
+  left: 34%;
+  top: 34%;
 }
 .mother-mouth{
   width: 17.1%;
@@ -64,24 +76,25 @@
 .frame-1 .mother .mother-eyes img:nth-child(1){
   width: 100%;
   height: auto;
-  right: 0%;
+  right: auto;
+  left: -22%;
   top: 0%;
 }
 .frame-1 .mother .mother-eyes img:nth-child(2){
   width: 80%;
   height: auto;
-  right: 7%;
+  right: 30%;
   top: 10%;
   left: auto;
   transform-origin: center;
   animation: mother-eye-pupils 10s infinite ease;
 }
 .frame-1 .mother .mother-eyes img:nth-child(3){
-  width: 135%;
+  width: 143%;
   height: auto;
-  right: -20%;f
-  top: -4%;
-  left: auto;
+  right: auto;
+  top: -11%;
+  left: -46%;
 }
 .frame-1 .father{
   width: 12%;
@@ -148,12 +161,11 @@
   transform-origin: center;
   animation: father-eye-pupils 8s infinite ease;
 }
-
 .frame-1 .vale{
-  width: 26%;
-  height: 49%;
-  right: 6%;
-  bottom: -14%;
+  width: 13.2%;
+  height: 35.9%;
+  left: 26%;
+  bottom: 10%;
   top: auto;
   position: absolute;
 }
@@ -166,10 +178,14 @@
   bottom: 1%;
 }
 .frame-1 .vale img:nth-child(2){
-  width: 100%;
+  width: 47%;
   height: auto;
-  left: 0%;
+  right: 3%;
+  left: auto;
   top: 6%;
+  bottom: auto;
+  transform-origin: left top;
+  animation: vale-hair 5s infinite ease;
 }
 .frame-1 .vale-eyes{
   width: 47%;
@@ -182,25 +198,6 @@
   background-size: 100% auto;
   animation: vale-eyes 2s infinite alternate ease-out;
 }
-.frame-1 .vale{
-  width: 15%;
-  height: 40.9%;
-  left: 31%;
-  bottom: 11%;
-  top: auto;
-  right: auto;
-  position: absolute;
-}
-.frame-1 .vale img:nth-child(2){
-  width: 47%;
-  height: auto;
-  right: 3%;
-  left: auto;
-  top: 6%;
-  bottom: auto;
-  transform-origin: left top;
-  animation: vale-hair 5s infinite ease;
-}
 .vale-head{
   width: 100%;
   height: 46%;
@@ -211,9 +208,9 @@
   animation: vale-head 5s infinite ease;
 }
 .frame-1 .vale-head img:nth-child(1){
-  width: 64%;
+  width: 75%;
   height: auto;
-  left: 16%;
+  left: 12%;
   right: auto;
   bottom: 3%;
   top: auto;
@@ -266,10 +263,10 @@
   animation: vale-breathing 5s infinite ease; */
 }
 .frame-1 .vale-eyes{
-  width: 41%;
+  width: 45%;
   height: 26%;
-  top: 58%;
-  right: 33%;
+  top: 50%;
+  right: 31%;
   left: auto;
   position: absolute;
   background-repeat: no-repeat;
@@ -277,11 +274,12 @@
   animation: vale-eyes 2s infinite alternate ease-out;
 }
   /* NIñO */
+
 .frame-1 .tommy{
-  width: 17.7%;
-  height: 48.9%;
-  right: 36%;
-  bottom: 0%;
+  width: 15.2%;
+  height: 42.9%;
+  left: 36%;
+  bottom: 10%;
   top: auto;
   position: absolute;
 }
@@ -293,13 +291,13 @@
   position: absolute;
 }
 .tommy-head img:nth-child(1){
-  width: 61%;
+  width: 62%;
   height: auto;
-  left: 14%;
+  left: 12%;
   top: 0%;
   bottom: auto;
-  transform-origin: left top;
-  animation: vale-hear 5s infinite ease;
+  transform-origin: bottom center;
+  animation: children-head 5s infinite ease;
 }
 .tommy-head img:nth-child(2){
   width: 75%;
@@ -326,69 +324,7 @@
   bottom: auto;
   right: auto;
   transform-origin: bottom right;
-  animation: content-comet 3s infinite linear;
-}
-
-/* NIñO 2 */
-.frame-1 .gina{
-  width: 20.7%;
-  height: 58.9%;
-  right: 0%;
-  bottom: 10%;
-  top: auto;
-  position: absolute;
-}
-.gina-head{
-  width: 100%;
-  height: 46%;
-  right: -1%;
-  top: 3.9%;
-  position: absolute;
-}
-.gina-head img:nth-child(1){
-  width: 66%;
-  height: auto;
-  left: 12%;
-  top: 0%;
-  bottom: auto;
-  transform-origin: left top;
-  animation: vale-hear 5s infinite ease;
-}
-.gina-body{
-  width: 90%;
-  height: 50%;
-  right: 13%;
-  bottom: auto;
-  bottom: 10%;
-  position: absolute;
-  transform-origin: bottom center;
-}
-.gina-body img:nth-child(1){
-  width: 38%;
-  height: auto;
-  left: 15%;
-  top: -11.2%;
-  bottom: auto;
-  right: auto;
-  transform-origin: bottom right;
-  animation: content-comet 3s infinite linear;
-}
-.gina-body img:nth-child(2){
-  width: 58%;
-  height: auto;
-  right: 15%;
-  left: auto;
-  top: -1%;
-  bottom: auto;
-}
-
-@keyframes content-comet{
-  0% {transform: skew(1deg) rotate(-10deg);}
-  10% {transform: skew(2deg) rotate(-8deg);}
-  20% {transform: skew(5deg) rotate(3deg);}
-  30% {transform: skew(5deg) rotate(5deg);}
-  40% {transform: skew(2deg) rotate(-8deg);}
-  100% {transform: skew(1deg) rotate(-10deg);}
+  animation: hand 3s infinite linear;
 }
 .tommy-body img:nth-child(2){
   width: 47%;
@@ -410,6 +346,162 @@
   background-repeat: no-repeat;
   background-size: 100% auto;
   animation: vale-eyes 2s infinite alternate ease-out;
+}
+/* NIñO 2 */
+
+.frame-1 .gina{
+  width: 15.2%;
+  height: 42.9%;
+  right: 42%;
+  bottom: 5%;
+  top: auto;
+  position: absolute;
+}
+.gina-head{
+  width: 100%;
+  height: 46%;
+  right: -1%;
+  top: -1.1%;
+  position: absolute;
+}
+.gina-head img:nth-child(1){
+  width: 77%;
+  height: auto;
+  left: 9%;
+  top: -2.5%;
+  bottom: auto;
+}
+.gina-body{
+  width: 90%;
+  height: 50%;
+  right: 13%;
+  bottom: auto;
+  bottom: 10%;
+  position: absolute;
+  transform-origin: bottom center;
+}
+.gina-body img:nth-child(1){
+  width: 38%;
+  height: auto;
+  left: 15%;
+  top: -11.2%;
+  bottom: auto;
+  right: auto;
+  transform-origin: bottom right;
+  animation: hand-2 3.3s infinite linear;
+}
+.gina-body img:nth-child(2){
+  width: 58%;
+  height: auto;
+  right: 15%;
+  left: auto;
+  top: -1%;
+  bottom: auto;
+}
+/* NIñO 3 */
+
+.frame-1 .beto{
+  width: 15.2%;
+  height: 42.9%;
+  right: 33.5%;
+  bottom: 11%;
+  top: auto;
+  position: absolute;
+}
+.beto-head{
+  width: 100%;
+  height: 46%;
+  right: -1%;
+  top: 0.9%;
+  position: absolute;
+}
+.beto-head img:nth-child(1){
+  width: 75%;
+  height: auto;
+  left: 12%;
+  top: 0%;
+  bottom: auto;
+  transform-origin: left top;
+  animation: vale-hear 5s infinite ease;
+}
+.beto-body{
+  width: 90%;
+  height: 50%;
+  right: 13%;
+  bottom: auto;
+  bottom: 10%;
+  position: absolute;
+  transform-origin: bottom center;
+}
+.beto-body img:nth-child(1){
+  width: 38%;
+  height: auto;
+  left: 15%;
+  top: -11.2%;
+  bottom: auto;
+  right: auto;
+  transform-origin: bottom right;
+  animation: hand 3.1s infinite linear;
+}
+.beto-body img:nth-child(2){
+  width: 58%;
+  height: auto;
+  right: 15%;
+  left: auto;
+  top: -1%;
+  bottom: auto;
+}
+/* NIñO 4 */
+
+.frame-1 .mario{
+  width: 15.2%;
+  height: 42.9%;
+  right: 26%;
+  bottom: 8%;
+  top: auto;
+  position: absolute;
+}
+.mario-head{
+  width: 100%;
+  height: 46%;
+  right: -1%;
+  top: 3.9%;
+  position: absolute;
+}
+.mario-head img:nth-child(1){
+  width: 70%;
+  height: auto;
+  left: 12%;
+  top: 0%;
+  bottom: auto;
+  transform-origin: bottom center;
+  animation: children-head-2 7s infinite ease;
+}
+.mario-body{
+  width: 90%;
+  height: 50%;
+  right: 13%;
+  bottom: 4.5%;
+  position: absolute;
+  transform-origin: bottom center;
+}
+.mario-body img:nth-child(1){
+  width: 38%;
+  height: auto;
+  left: 15%;
+  top: -11.2%;
+  bottom: auto;
+  right: auto;
+  transform-origin: bottom right;
+  animation: hand-2 3.5s infinite linear;
+}
+.mario-body img:nth-child(2){
+  width: 58%;
+  height: auto;
+  right: 15%;
+  left: auto;
+  top: -1%;
+  bottom: auto;
 }
 
 .reloj{
@@ -444,10 +536,10 @@
   animation: seconds 60s steps(60) infinite;
 }
 .frame-1 .teacher{
-  width: 11%;
-  height: 38.4%;
-  left: 13%;
-  bottom: 26%;
+  width: 14%;
+  height: 49%;
+  left: 14%;
+  bottom: 21%;
   top: auto;
   position: absolute;
 }
@@ -547,10 +639,10 @@
 /* TEACHER 2 */
 
 .frame-1 .teacher-2{
-  width: 11%;
-  height: 38.2%;
-  left: 3%;
-  bottom: 20%;
+  width: 14%;
+  height: 49.2%;
+  left: 1%;
+  bottom: 13%;
   top: auto;
   position: absolute;
 }
@@ -647,23 +739,36 @@
   background-size: 100% auto;
   animation: teacher-2-mouth  4s infinite alternate cubic-bezier(1, -0.07, 0.22, 1.02);
 }
-
+@keyframes hand{
+  0% {transform: skew(1deg) rotate(-10deg);}
+  10% {transform: skew(2deg) rotate(-8deg);}
+  20% {transform: skew(5deg) rotate(3deg);}
+  30% {transform: skew(5deg) rotate(5deg);}
+  40% {transform: skew(2deg) rotate(-8deg);}
+  100% {transform: skew(1deg) rotate(-10deg);}
+}
+@keyframes hand-2{
+  0% {transform: skew(1deg) rotate(10deg);}
+  10% {transform: skew(2deg) rotate(8deg);}
+  20% {transform: skew(5deg) rotate(3deg);}
+  30% {transform: skew(5deg) rotate(5deg);}
+  40% {transform: skew(2deg) rotate(8deg);}
+  100% {transform: skew(1deg) rotate(10deg);}
+}
 @keyframes vale-head{
   0%{ transform: rotate(0deg);}
   5% { transform: rotate(3deg);}
   10% { transform: rotate(0deg);}
   100% { transform: rotate(0deg);}
 }
-@keyframes Shoulders-1{
+@keyframes children-head{
   0%{ transform: rotate(0deg);}
-  5% { transform: rotate(-5deg);}
-  10% { transform: rotate(0deg);}
+  50% { transform: rotate(-3deg);}
   100% { transform: rotate(0deg);}
 }
-@keyframes Shoulders-2{
+@keyframes children-head-2{
   0%{ transform: rotate(0deg);}
-  5% { transform: rotate(5deg);}
-  10% { transform: rotate(0deg);}
+  50% { transform: rotate(3deg);}
   100% { transform: rotate(0deg);}
 }
 @keyframes vale-breathing{
