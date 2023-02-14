@@ -117,16 +117,13 @@
   left: 0%;
   top: auto;
 }
-.mother-mouth{
-  width: 17.1%;
-  height: 10%;
-  position: absolute;
-  left: 47%;
-  bottom: 56%;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  animation: mother-mouth 4s infinite cubic-bezier(1, -0.07, 0.22, 1.02);
+.frame-1 .mother img:nth-child(2){
+  width: 20%;
+  height: auto;
+  left: 46%;
+  top: 35%;
 }
+
 .frame-1 .mother-eyes{
   width: 54%;
   height: 15%;
@@ -201,7 +198,7 @@
 .frame-1 .father-face .fother-mostach{
   width: 35%;
   height: 13%;
-  bottom: 17%;
+  bottom: 13%;
   left: 32%;
   position: absolute;
   background-repeat: no-repeat;
@@ -282,72 +279,6 @@
   15% { background-image: url("../img/frame4y5/bigote-papa-1.png");}
   100% { background-image: url("../img/frame4y5/bigote-papa-1.png");}
 }
-@keyframes mother-mouth {
-  0% {
-    background-image: url(../img/frame4y5/boca_mama1.png);
-  }
-  2% {
-      background-image: url(../img/frame4y5/boca_mama2.png;
-  }
-  4% {
-      background-image: url(../img/frame4y5/boca_mama3.png);
-  }
-  6% {
-      background-image: url(../img/frame4y5/boca_mama2.png);
-  }
-  8% {
-      background-image: url(../img/frame4y5/boca_mama1.png);
-  }
-  10% {
-      background-image: url(../img/frame4y5/boca_mama2.png);
-  }
-  12% {
-      background-image: url(../img/frame4y5/boca_mama3.png);
-  }
-  14% {
-      background-image: url(../img/frame4y5/boca_mama2.png);
-  }
-  16% {
-      background-image: url(../img/frame4y5/boca_mama1.png;
-  }
-  18% {
-      background-image: url(../img/frame4y5/boca_mama2.png);
-  }
-  30% {
-      background-image: url(../img/frame4y5/boca_mama3.png);
-  }
-  32% {
-      background-image: url(../img/frame4y5/boca_mama2.png);
-  }
-  34% {
-      background-image: url(../img/frame4y5/boca_mama1.png);
-  }
-  36% {
-      background-image: url(../img/frame4y5/boca_mama2.png);
-  }
-  38% {
-      background-image: url(../img/frame4y5/boca_mama3.png);
-  }
-  40% {
-      background-image: url(../img/frame4y5/boca_mama1.png);
-  }
-  42% {
-      background-image: url(../img/frame4y5/boca_mama2.png);
-  }
-  44% {
-      background-image: url(../img/frame4y5/boca_mama1.png);
-  }
-  46% {
-      background-image: url(../img/frame4y5/boca_mama1.png);
-  }
-  48% {
-      background-image: url(../img/frame4y5/boca_mama1.png);
-  }
-  100% {
-      background-image: url(../img/frame4y5/boca_mama1.png);
-  }
-}
-
 @keyframes back-frame-1 {
   100% {
     background-position: 1104px 0px;
