@@ -194,7 +194,7 @@
 }
 .frame-3 .vale{
   width: 17%;
-  height: 48%;
+  height: 46%;
   right: 9%;
   bottom: 1%;
   top: auto;
@@ -267,12 +267,18 @@
   animation: vale-eyes 2s infinite alternate ease-out;
 }
 .frame-3 .teacher{
-  width: 14.5%;
-  height: 50.6%;
-  right: 38%;
-  bottom: 6%;
+  width: 16%;
+  height: 56%;
+  left: 50%;
+  bottom: 7%;
   top: auto;
   position: absolute;
+}
+.teacher img:nth-child(1){
+  width: 91%;
+  height: auto;
+  left: 0%;
+  top: 5%;
 }
 .teacher-body{
   width: 100%;
@@ -282,24 +288,25 @@
   position: absolute;
 }
 .teacher-body img:nth-child(1){
-  width: 24%;
+  width: 34%;
   height: auto;
-  left: 66%;
-  top: 7%;
+  right: 1%;
+  left: auto;
+  top: 0%;
+  bottom: auto;
 }
 .teacher-body img:nth-child(2){
   width: 24%;
   height: auto;
   left: 10%;
-  top: 7%;
+  top: 4%;
 }
 .teacher-body img:nth-child(3){
   width: 65%;
   height: auto;
-  left: 18%;
-  bottom: 0%;
-  top: auto;
-
+  left: 17%;
+  top: -2.5%;
+  bottom: auto;
 }
 .teacher-head{
   width: 100%;
@@ -309,10 +316,11 @@
   position: absolute;
 }
 .teacher-head img:nth-child(1){
-  width: 101%;
+  width: 93%;
   height: auto;
-  left: 1%;
-  top: -51%;
+  left: -6%;
+  top: -55%;
+  bottom: auto;
 }
 .teacher-face{
   width: 100%;
@@ -354,6 +362,16 @@
   height: auto;
   right: 6%;
   top: 0%;
+}
+.teacher-mouth {
+  width: 16.1%;
+  height: 22%;
+  position: absolute;
+  left: 39%;
+  bottom: 4%;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: teacher-mouth 5s infinite alternate cubic-bezier(1, -0.07, 0.22, 1.02);
 }
 .reloj{
   width: 10%;
@@ -560,16 +578,19 @@
 }
 @keyframes teacher-eyes {
   0% {
-    background-image: url("../img/page-2/sec3-frame-2/ojo-maestra-3.png");
+    background-image: url(../img/page-2/sec3-frame-2/ojo-maestra-1.png);
   }
   5% {
-      background-image: url("../img/page-2/sec3-frame-2/ojo-maestra-2.png");
+      background-image: url(../img/page-2/sec3-frame-2/ojo-maestra-2.png);
   }
-  10%{
-    background-image: url("../img/page-2/sec3-frame-2/ojo-maestra-1.png");
+  10% {
+      background-image: url(../img/page-2/sec3-frame-2/ojo-maestra-3.png);
+  }
+  15% {
+      background-image: url(../img/page-2/sec3-frame-2/ojo-maestra-2.png);
   }
   20%, 100% {
-    background-image: url("../img/page-2/sec3-frame-2/ojo-maestra-2.png");
+      background-image: url(../img/page-2/sec3-frame-2/ojo-maestra-1.png);
   }
 }
 @keyframes mother-mouth {

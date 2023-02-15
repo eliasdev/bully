@@ -157,19 +157,19 @@
   animation: vale-breathing 5s infinite ease;
 }
 .vale .vale-body img:nth-child(1){
-  width: 41%;
+  width: 53%;
   height: auto;
-  right: -4%;
-  top: 29.6%;
+  right: -14%;
+  top: 25.6%;
   left: auto;
   transform-origin: bottom left;
   animation: vale-shoulders 2s infinite ease;
 }
 .vale .vale-body img:nth-child(2){
-  width: 41%;
+  width: 53%;
   height: auto;
-  left: -2%;
-  top: 27.8%;
+  left: -9%;
+  top: 25.8%;
   right: auto;
   transform-origin: bottom right;
   animation: vale-shoulders 2s infinite ease;
@@ -236,7 +236,7 @@
   bottom: 3%;
   position: absolute;
   transform-origin: bottom center;
-  animation: vale-breathing 5s infinite ease;
+  /* animation: vale-breathing 5s infinite ease; */
 }
 .marco .marco-body img:nth-child(1){
   width: 24%;
@@ -245,8 +245,8 @@
   top: -4.2%;
   bottom: auto;
   right: auto;
-  transform-origin: bottom left;
-  animation: vale-shoulders 2s infinite ease;
+  transform-origin: top center;
+  animation: Shoulders-2 4s infinite ease;
 }
 .marco .marco-body img:nth-child(2){
   width: 24%;
@@ -254,8 +254,8 @@
   right: 10%;
   top: -5.2%;
   left: auto;
-  transform-origin: bottom right;
-  animation: vale-shoulders 2s infinite ease;
+  transform-origin: top center;
+  animation: Shoulders-1 4s infinite ease;
 }
 .marco .marco-body img:nth-child(3){
   width: 72%;
@@ -337,10 +337,10 @@
   animation: children-head-2 2s infinite ease;
 }
 .ana .ana-body img:nth-child(2){
-  width: 50%;
+  width: 54%;
   height: auto;
-  right: -9%;
-  top: -24.2%;
+  right: -12%;
+  top: -22.2%;
   left: auto;
   transform-origin: left;
   animation: hand 4s infinite linear;
@@ -442,4 +442,35 @@
   0% {transform: rotate(0deg);}
   50% {transform: rotate(3deg);}
   100% {transform: rotate(0deg);}
+}
+@keyframes Shoulders-1{
+  0%{ transform: rotate(0deg);}
+  5% { transform: rotate(-5deg);}
+  10% { transform: rotate(0deg);}
+  100% { transform: rotate(0deg);}
+}
+@keyframes Shoulders-2{
+  0%{ transform: rotate(0deg);}
+  5% { transform: rotate(5deg);}
+  10% { transform: rotate(0deg);}
+  100% { transform: rotate(0deg);}
+}
+@keyframes vale-shoulders {
+  0% {
+    transform: skew(0deg, 0deg);
+  }
+  50% {
+      transform: skew(3deg, 3deg);
+  }
+  100% {
+      transform: skew(0deg, 0deg);
+  }
+}
+@keyframes hand{
+  0% {transform: skew(1deg) rotate(-10deg);}
+  10% {transform: skew(2deg) rotate(-8deg);}
+  20% {transform: skew(5deg) rotate(3deg);}
+  30% {transform: skew(5deg) rotate(5deg);}
+  40% {transform: skew(2deg) rotate(-8deg);}
+  100% {transform: skew(1deg) rotate(-10deg);}
 }

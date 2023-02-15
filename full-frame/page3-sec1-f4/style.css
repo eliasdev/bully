@@ -221,12 +221,19 @@
 /* NIñO 2 */
 
 .frame-4 .gina{
-  width: 24.3%;
-  height: 23.2%;
-  right: 26%;
-  bottom: 13.5%;
+  width: 20.2%;
+  height: 18.9%;
+  right: 27%;
+  bottom: 17%;
   top: auto;
   position: absolute;
+}
+.gina img:nth-child(1){
+  width: 74%;
+  height: auto;
+  left: 13%;
+  top: 0%;
+  bottom: auto;
 }
 .gina-head{
   width: 100%;
@@ -236,10 +243,10 @@
   position: absolute;
 }
 .gina-head img:nth-child(1){
-  width: 77%;
+  width: 63%;
   height: auto;
-  left: 9%;
-  top: -2.5%;
+  left: 17%;
+  top: 1.5%;
   bottom: auto;
 }
 .gina-body{
@@ -325,19 +332,30 @@
 /* NIñO 4 */
 
 .frame-4 .mario{
-  width: 24.3%;
-  height: 23.2%;
-  right: 2%;
-  bottom: 10.5%;
+  width: 22.2%;
+  height: 21.9%;
+  right: 9%;
+  bottom: 8%;
   top: auto;
   position: absolute;
+}
+.mario img:nth-child(1){
+  width: 70%;
+  height: auto;
+  left: 12%;
+  top: 5%;
+  bottom: auto;
+  /* transform-origin: bottom center;
+  animation: children-head-2 7s infinite ease; */
 }
 .mario-head{
   width: 100%;
   height: 46%;
   right: -1%;
-  top: 3.9%;
+  top: 7.9%;
   position: absolute;
+  /* transform-origin: bottom center;
+  animation: children-head-2 7s infinite ease; */
 }
 .mario-head img:nth-child(1){
   width: 70%;
@@ -345,8 +363,6 @@
   left: 12%;
   top: 0%;
   bottom: auto;
-  transform-origin: bottom center;
-  animation: children-head-2 7s infinite ease;
 }
 .mario-body{
   width: 90%;
@@ -359,8 +375,8 @@
 .mario-body img:nth-child(1){
   width: 38%;
   height: auto;
-  left: 15%;
-  top: -11.2%;
+  left: 9%;
+  top: -9.2%;
   bottom: auto;
   right: auto;
   transform-origin: bottom right;
@@ -595,8 +611,8 @@
 .ana-head{
   width: 100%;
   height: 46%;
-  right: 1%;
-  top: -3%;
+  right: 3%;
+  top: -2%;
   position: absolute;
 }
 .frame-4 .ana-head img:nth-child(1){
