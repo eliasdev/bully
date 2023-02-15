@@ -162,13 +162,13 @@
 .frame-7 .father-mostach{
   width: 35%;
   height: 13%;
-  top: 42%;
+  top: 43%;
   left: 22%;
   position: absolute;
   background-repeat: no-repeat;
   background-size: 100% auto;
   transform-origin: center;
-  animation: fother-mostach 1.5s infinite ease;
+  animation: fother-mostach 3s infinite ease;
 }
 .frame-7 .father-eyes{
   width: 54%;

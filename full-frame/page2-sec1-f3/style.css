@@ -1,6 +1,6 @@
 .frame-3 {
   width: 80%;
-  height: 100%;
+  height: 99%;
   bottom: 1%;
   right: 0.7%;
   background: #7DB4D8;
@@ -43,6 +43,12 @@
   top: auto;
   position: absolute;
 }
+.frame-3 .mother img:nth-child(1){
+  width: 99%;
+  height: auto;
+  left: -1%;
+  top: 14%;
+}
 .mother-body{
   width: 51%;
   height: 43%;
@@ -79,13 +85,14 @@
   width: 100%;
   height: 56%;
   left: 0%;
-  top: 0%;
+  top: 1%;
   position: absolute;
 }
 .mother .mother-head img:nth-child(1){
-  width: 100%;
+  width: 86%;
   height: auto;
-  left: 0%;
+  right: 7%;
+  left: auto;
   top: 0;
   bottom: auto;
 }
@@ -103,10 +110,10 @@
 }
 .mother .mother-head .mother-mouth{
   width: 17.1%;
-  height: 10%;
+  height: 14%;
   position: absolute;
   left: 47%;
-  bottom: 8%;
+  bottom: 3%;
   background-repeat: no-repeat;
   background-size: 100% auto;
   animation: mother-mouth 4s infinite cubic-bezier(1, -0.07, 0.22, 1.02);
