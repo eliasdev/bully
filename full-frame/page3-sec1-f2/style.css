@@ -435,10 +435,10 @@
 }
 .teacher-2-mouth {
   width: 17.1%;
-  height: 10%;
+  height: 17%;
   position: absolute;
   left: 40%;
-  bottom: 17%;
+  bottom: 2%;
   background-repeat: no-repeat;
   background-size: 100% auto;
   animation: teacher-2-mouth 4s infinite cubic-bezier(1, -0.07, 0.22, 1.02);
@@ -534,19 +534,22 @@
 }
 @keyframes teacher-2-eyes {
   0% {
-      background-image: url("../img/page-3/sec1-frame-1/direc-ojos-1.png");
+      background-image: url("../img/page-3/sec1-frame-1/ojos-1.png");
   }
-  10% {
-      background-image: url("../img/page-3/sec1-frame-1/direc-ojos-2.png");
+  5% {
+      background-image: url("../img/page-3/sec1-frame-1/ojos-2.png");
   }
-  15%{
-    background-image: url("../img/page-3/sec1-frame-1/direc-ojos-1.png");
+  10%{
+    background-image: url("../img/page-3/sec1-frame-1/ojos-3.png");
+  }
+  15% {
+      background-image: url("../img/page-3/sec1-frame-1/ojos-4.png");
   }
   20% {
-    background-image: url("../img/page-3/sec1-frame-1/direc-ojos-1.png");
+    background-image: url("../img/page-3/sec1-frame-1/ojos-1.png");
   }
   100% {
-    background-image: url("../img/page-3/sec1-frame-1/direc-ojos-1.png");
+    background-image: url("../img/page-3/sec1-frame-1/ojos-1.png");
   }
 }
 @keyframes children-eye-pupils {

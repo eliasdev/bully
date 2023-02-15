@@ -78,7 +78,7 @@
   animation: pajaro 0.8s steps(5) infinite;
 }
 @keyframes pajaro {
-  0% { background-position-X: 100%;}
+  0% { background-position-X: 125%;}
   100% { background-position-X: 0;}
 }
 .sun {

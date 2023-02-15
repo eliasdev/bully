@@ -38,6 +38,13 @@
   top: auto;
   position: absolute;
 }
+.teacher img:nth-child(1){
+  width: 100%;
+  height: auto;
+  left: -2%;
+  top: 8%;
+  bottom: auto;
+}
 .teacher-body{
   width: 100%;
   height: 72%;
@@ -75,9 +82,9 @@
   position: absolute;
 }
 .teacher-head img:nth-child(1){
-  width: 101%;
+  width: 91%;
   height: auto;
-  left: 1%;
+  left: 4%;
   top: -51%;
 }
 .teacher-face{
@@ -429,16 +436,19 @@
 }
 @keyframes teacher-eyes {
   0% {
-    background-image: url("../img/page-2/sec3-frame-2/ojo-maestra-3.png");
+    background-image: url(../img/page-2/sec3-frame-2/ojo-maestra-1.png);
   }
   5% {
-      background-image: url("../img/page-2/sec3-frame-2/ojo-maestra-2.png");
+      background-image: url(../img/page-2/sec3-frame-2/ojo-maestra-2.png);
   }
-  10%{
-    background-image: url("../img/page-2/sec3-frame-2/ojo-maestra-1.png");
+  10% {
+      background-image: url(../img/page-2/sec3-frame-2/ojo-maestra-3.png);
+  }
+  15% {
+      background-image: url(../img/page-2/sec3-frame-2/ojo-maestra-2.png);
   }
   20%, 100% {
-    background-image: url("../img/page-2/sec3-frame-2/ojo-maestra-2.png");
+      background-image: url(../img/page-2/sec3-frame-2/ojo-maestra-1.png);
   }
 }
 @keyframes children-eye-pupils {

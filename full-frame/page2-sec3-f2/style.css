@@ -433,15 +433,18 @@
 }
 @keyframes teacher-eyes {
   0% {
-    background-image: url("../img/page-2/sec3-frame-2/ojo-maestra-3.png");
+    background-image: url(../img/page-2/sec3-frame-2/ojo-maestra-1.png);
   }
   5% {
-      background-image: url("../img/page-2/sec3-frame-2/ojo-maestra-2.png");
+      background-image: url(../img/page-2/sec3-frame-2/ojo-maestra-2.png);
   }
-  10%{
-    background-image: url("../img/page-2/sec3-frame-2/ojo-maestra-1.png");
+  10% {
+      background-image: url(../img/page-2/sec3-frame-2/ojo-maestra-3.png);
+  }
+  15% {
+      background-image: url(../img/page-2/sec3-frame-2/ojo-maestra-2.png);
   }
   20%, 100% {
-    background-image: url("../img/page-2/sec3-frame-2/ojo-maestra-2.png");
+      background-image: url(../img/page-2/sec3-frame-2/ojo-maestra-1.png);
   }
 }
