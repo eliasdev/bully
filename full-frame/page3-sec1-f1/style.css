@@ -68,27 +68,22 @@
   position: absolute;
 }
 .frame-1 .mother .mother-eyes img:nth-child(1){
+  width: 124%;
+  height: auto;
+  right: auto;
+  left: -36%;
+  top: 1%;
+}
+.frame-1 .mama-eyes{
   width: 100%;
-  height: auto;
-  right: auto;
-  left: -22%;
-  top: 0%;
-}
-.frame-1 .mother .mother-eyes img:nth-child(2){
-  width: 80%;
-  height: auto;
-  right: 30%;
-  top: 10%;
+  height: 69%;
+  top: 9%;
+  right: 23%;
   left: auto;
-  transform-origin: center;
-  animation: mother-eye-pupils 10s infinite ease;
-}
-.frame-1 .mother .mother-eyes img:nth-child(3){
-  width: 143%;
-  height: auto;
-  right: auto;
-  top: -11%;
-  left: -46%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: mama-eyes 2s infinite alternate ease-out;
 }
 .frame-1 .father{
   width: 12%;
@@ -462,6 +457,17 @@
   top: auto;
   position: absolute;
 }
+.frame-1 .mario-eyes{
+  width: 47%;
+  height: 37%;
+  top: 42%;
+  right: 34%;
+  left: auto;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: mario-eyes 2.8s infinite alternate ease-out;
+}
 .mario img:nth-child(1){
   width: 70%;
   height: auto;
@@ -823,15 +829,15 @@
   /* animation: vale-head 5s infinite ease; */
 }
 .frame-1 .peliroja-eyes{
-  width: 54%;
+  width: 65%;
   height: 37%;
-  top: 34%;
-  right: 27%;
+  top: 40%;
+  right: 21%;
   left: auto;
   position: absolute;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  animation: peliroja-eyes 2s infinite alternate ease-out;
+  animation: roja-eyes 2.8s infinite alternate ease-out;
 }
 .peliroja-eyebrowns{
   width: 57%;
@@ -926,6 +932,75 @@
   height: auto;
   right: -15%;
   bottom: -14%;
+}
+@keyframes mario-eyes {
+  0% {
+    background-image: url(../img/page-3/sec1-frame-1/ojos-morada-1.png);
+  }
+  10% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-morada-2.png);
+  }
+  15% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-morada-3.png);
+  }
+  20% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-morada-2.png);
+  }
+  25% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-morada-1.png);
+  }
+  30% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-morada-1.png);
+  }
+  35%, 100% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-morada-1.png);
+  }
+}
+@keyframes mama-eyes {
+  0% {
+    background-image: url(../img/page-3/sec1-frame-1/ojos-mama-1.png);
+  }
+  10% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-mama-2.png);
+  }
+  15% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-mama-3.png);
+  }
+  20% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-mama-2.png);
+  }
+  25% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-mama-1.png);
+  }
+  30% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-mama-1.png);
+  }
+  35%, 100% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-mama-1.png);
+  }
+}
+@keyframes roja-eyes {
+  0% {
+    background-image: url(../img/page-3/sec1-frame-1/ojos-roja-1.png);
+  }
+  5% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-roja-2.png);
+  }
+  10% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-roja-3.png);
+  }
+  15% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-roja-4.png);
+  }
+  20% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-roja-3.png);
+  }
+  25% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-roja-2.png);
+  }
+  30%, 100% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-roja-1.png);
+  }
 }
 @keyframes hand{
   0% {transform: skew(1deg) rotate(-10deg);}
