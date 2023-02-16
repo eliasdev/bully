@@ -50,12 +50,12 @@
   bottom: 10%;
 }
 .companeros{
-  width: 55.6%;
+  width: 52.6%;
   height: 10%;
   position: absolute;
   bottom: 21%;
   right: 3%;
-  background: url(../img/frame1/saltando-cuerda-2.png);
+  background: url(../img/frame1/saltando-cuerda.png);
   background-size: 100% auto;
   transform-origin: bottom center;
   margin: 0 auto;
