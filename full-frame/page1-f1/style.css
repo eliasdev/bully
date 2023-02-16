@@ -50,12 +50,12 @@
   bottom: 10%;
 }
 .companeros{
-  width: 55.6%;
+  width: 52.6%;
   height: 10%;
   position: absolute;
   bottom: 21%;
   right: 3%;
-  background: url(../img/frame1/saltando-cuerda-2.png);
+  background: url(../img/frame1/saltando-cuerda.png);
   background-size: 100% auto;
   transform-origin: bottom center;
   margin: 0 auto;
@@ -65,12 +65,20 @@
   0% { background-position-y: 100%;}
   100% { background-position-y: 0;}
 }
-.pajaro{
-  width: 28.6%;
+.cont-pajaro{
+  width: 24.6%;
   height: 10%;
+  top: 32%;
+  left: -30%;
   position: absolute;
-  bottom: 61%;
-  right: 38%;
+  animation: pajaro-traslate 10s 5s infinite ease;
+}
+.pajaro{
+  width: 112%;
+  height: 100%;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
   background: url(../img/frame1/pajarito.png);
   background-size: auto 100%;
   transform-origin: bottom center;
@@ -78,8 +86,12 @@
   animation: pajaro 0.8s steps(5) infinite;
 }
 @keyframes pajaro {
-  0% { background-position-X: 125%;}
+  0% { background-position-X: -125.5%;}
   100% { background-position-X: 0;}
+}
+@keyframes pajaro-traslate {
+  0% { transform: translate(-100%);}
+  100% { transform: translate(550%, -200%);}
 }
 .sun {
   width: 35%;

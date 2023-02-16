@@ -23,8 +23,8 @@
 .frame-5 .text img:nth-child(2){
   width: 12%;
   height: auto;
-  top: 34%;
-  left: 15%;
+  top: 28%;
+  left: 14%;
 }
 .frame-5 .text img:nth-child(3){
   width: 12%;
@@ -199,7 +199,7 @@
 
 .frame-5 .marco{
   width: 16.2%;
-  height: 34.9%;
+  height: 43.9%;
   left: 14%;
   bottom: 11%;
   top: auto;
@@ -207,18 +207,18 @@
 }
 .marco-head{
   width: 100%;
-  height: 46%;
-  right: 1%;
-  top: -3%;
+  height: 52%;
+  right: 0%;
+  top: 0%;
   position: absolute;
 }
 .frame-5 .marco-head img:nth-child(1){
-  width: 90%;
+  width: 100%;
   height: auto;
-  left: 14%;
+  left: 0%;
   right: auto;
-  bottom: 4%;
-  top: auto;
+  top: 0%;
+  bottom: auto;
   position: absolute;
 }
 .tommy .marco-head img:nth-child(2){
@@ -231,9 +231,9 @@
 }
 .marco-body{
   width: 83%;
-  height: 50%;
-  right: 1%;
-  bottom: 3%;
+  height: 63%;
+  right: 0%;
+  bottom: 0%;
   position: absolute;
   transform-origin: bottom center;
   /* animation: vale-breathing 5s infinite ease; */
@@ -241,8 +241,8 @@
 .marco .marco-body img:nth-child(1){
   width: 24%;
   height: auto;
-  left: 23%;
-  top: -4.2%;
+  left: 11%;
+  top: 20%;
   bottom: auto;
   right: auto;
   transform-origin: top center;
@@ -251,21 +251,28 @@
 .marco .marco-body img:nth-child(2){
   width: 24%;
   height: auto;
-  right: 10%;
-  top: -5.2%;
+  right: 17%;
+  top: 20%;
   left: auto;
   transform-origin: top center;
   animation: Shoulders-1 4s infinite ease;
 }
 .marco .marco-body img:nth-child(3){
-  width: 72%;
+  width: 81%;
   height: auto;
-  left: 19%;
+  left: 5%;
   bottom: 0;
   right: auto;
   top: auto;
-  /* transform-origin: bottom center;
-  animation: vale-breathing 5s infinite ease; */
+}
+.marco .marco-body img:nth-child(4){
+  width: 49%;
+  height: auto;
+  left: 22%;
+  top: 13%;
+  right: auto;
+  transform-origin: bottom center;
+  animation: vale-breathing 5s infinite ease;
 }
 /* ANA  */
 .frame-5 .ana{
