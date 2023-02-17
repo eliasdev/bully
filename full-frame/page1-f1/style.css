@@ -74,7 +74,7 @@
   animation: pajaro-traslate 10s 5s infinite ease;
 }
 .pajaro{
-  width: 112%;
+  width: 83.3%;
   height: 100%;
   position: absolute;
   bottom: 0%;
@@ -91,7 +91,7 @@
 }
 @keyframes pajaro-traslate {
   0% { transform: translate(-100%);}
-  100% { transform: translate(550%, -200%);}
+  100% { transform: translate(700%, -300%);}
 }
 .sun {
   width: 35%;
