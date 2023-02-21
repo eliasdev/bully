@@ -98,7 +98,7 @@
   position: absolute;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  animation: teacher-2-eyes 2s infinite alternate ease-out;
+  animation: teacher-2-eyes 2s infinite alternate ease;
 }
 .teacher-2-eyebrowns{
   width: 57%;
@@ -233,26 +233,15 @@
   animation: vale-breathing 5s infinite ease; */
 }
 .frame-2 .ana-eyes{
-  width: 48%;
-  height: 15%;
-  right: 18%;
+  width: 47%;
+  height: 37%;
   top: 48%;
+  right: 29%;
+  left: auto;
   position: absolute;
-}
-.frame-2 .ana-eyes img:nth-child(1){
-  width: 100%;
-  height: auto;
-  right: auto;
-  left: -22%;
-  top: 0%;
-}
-.frame-2 .ana-eyes img:nth-child(2){
-  width: 80%;
-  height: auto;
-  left: -12%;
-  top: 37%;
-  transform-origin: center;
-  animation: children-eye-pupils 4s infinite ease;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: ana-eyes 2.5s infinite alternate ease;
 }
 .ana-eyebrowns{
   width: 52%;
@@ -359,11 +348,15 @@
   animation: vale-breathing 5s infinite ease; */
 }
 .frame-2 .tommy-eyes{
-  width: 48%;
-  height: 15%;
-  right: 18%;
-  top: 48%;
+  width: 49%;
+  height: 54%;
+  top: 47%;
+  right: 29%;
+  left: auto;
   position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: tommy-eyes 3s infinite alternate ease;
 }
 .frame-2 .tommy-eyes img:nth-child(1){
   width: 100%;
@@ -445,16 +438,25 @@
 }
 @keyframes ana-eyes {
   0% {
-      background-image: url("../img/frame3/ojos-vale-1.png");
+    background-image: url(../img/page-3/sec1-frame-1/ojos-morada-1.png);
   }
-  5% {
-      background-image: url("../img/frame3/ojos-vale-2.png");
+  4% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-morada-2.png);
   }
-  10%{
-    background-image: url("../img/frame3/ojos-vale-3.png");
+  8% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-morada-3.png);
   }
-  100% {
-    background-image: url("../img/frame3/ojos-vale-3.png");
+  16% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-morada-2.png);
+  }
+  20% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-morada-1.png);
+  }
+  24% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-morada-1.png);
+  }
+  28%, 100% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-morada-1.png);
   }
 }
 @keyframes minutes {
@@ -572,4 +574,27 @@
   0%{ transform: rotate(0deg);}
   50% { transform: rotate(3deg);}
   100% { transform: rotate(0deg);}
+}
+@keyframes tommy-eyes {
+  0% {
+    background-image: url(../img/page-3/sec1-frame-1/ojos-nino-1-1.png);
+  }
+  4% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-nino-1-2.png);
+  }
+  8% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-nino-1-3.png);
+  }
+  12% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-nino-1-4.png);
+  }
+  16% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-nino-1-3.png);
+  }
+  20% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-nino-1-2.png);
+  }
+  24%, 100% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-nino-1-1.png);
+  }
 }
