@@ -91,7 +91,7 @@
   position: absolute;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  animation: vale-eyes 2s infinite alternate ease-out;
+  animation: vale-eyes 2.5s infinite alternate ease;
 }
 .frame-5 .vale{
   width: 31%;
@@ -211,6 +211,8 @@
   right: 0%;
   top: 0%;
   position: absolute;
+  transform-origin: bottom center;
+  animation: children-head-1 5s infinite ease;
 }
 .frame-5 .marco-head img:nth-child(1){
   width: 100%;
@@ -221,13 +223,24 @@
   bottom: auto;
   position: absolute;
 }
-.tommy .marco-head img:nth-child(2){
+.frame-5 .marco-head img:nth-child(2){
   width: 75%;
   height: auto;
   right: 13%;
   left: auto;
   top: 3%;
   bottom: auto;
+}
+.marco-eyes{
+  width: 47%;
+  height: 37%;
+  top: 51%;
+  right: 18%;
+  left: auto;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: marco-eyes 3s infinite alternate ease;
 }
 .marco-body{
   width: 83%;
@@ -308,6 +321,8 @@
   right: 1%;
   top: -3%;
   position: absolute;
+  transform-origin: bottom center;
+  animation: children-head 4s infinite ease;
 }
 .frame-5 .ana-head img:nth-child(1){
   width: 75%;
@@ -363,26 +378,15 @@
   animation: vale-breathing 5s infinite ease; */
 }
 .frame-5 .ana-eyes{
-  width: 48%;
-  height: 15%;
-  right: 18%;
+  width: 47%;
+  height: 37%;
   top: 48%;
+  right: 29%;
+  left: auto;
   position: absolute;
-}
-.frame-5 .ana-eyes img:nth-child(1){
-  width: 100%;
-  height: auto;
-  right: auto;
-  left: -22%;
-  top: 0%;
-}
-.frame-5 .ana-eyes img:nth-child(2){
-  width: 80%;
-  height: auto;
-  left: -12%;
-  top: 37%;
-  transform-origin: center;
-  animation: children-eye-pupils 4s infinite ease;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: ana-eyes 2.3s infinite alternate ease;
 }
 .ana-eyebrowns{
   width: 52%;
@@ -423,16 +427,25 @@
 }
 @keyframes vale-eyes {
   0% {
-      background-image: url("../img/frame3/ojos-vale-1.png");
+      background-image: url("../img/page-3/sec1-frame-1/ojos-vale-1.png");
   }
-  5% {
-      background-image: url("../img/frame3/ojos-vale-2.png");
+  3% {
+      background-image: url("../img/page-3/sec1-frame-1/ojos-vale-2.png");
   }
-  10%{
-    background-image: url("../img/frame3/ojos-vale-3.png");
+  6%{
+    background-image: url("../img/page-3/sec1-frame-1/ojos-vale-3.png");
   }
-  100% {
-    background-image: url("../img/frame3/ojos-vale-3.png");
+  12%{
+    background-image: url("../img/page-3/sec1-frame-1/ojos-vale-4.png");
+  }
+  15% {
+    background-image: url("../img/page-3/sec1-frame-1/ojos-vale-3.png");
+  }
+  18% {
+    background-image: url("../img/page-3/sec1-frame-1/ojos-vale-2.png");
+  }
+  20%, 100% {
+    background-image: url("../img/page-3/sec1-frame-1/ojos-vale-1.png");
   }
 }
 @keyframes vale-hair {
@@ -480,4 +493,60 @@
   30% {transform: skew(5deg) rotate(5deg);}
   40% {transform: skew(2deg) rotate(-8deg);}
   100% {transform: skew(1deg) rotate(-10deg);}
+}
+@keyframes ana-eyes {
+  0% {
+    background-image: url(../img/page-3/sec1-frame-4/ojos-macha-1.png);
+  }
+  4% {
+      background-image: url(../img/page-3/sec1-frame-4/ojos-macha-2.png);
+  }
+  8% {
+      background-image: url(../img/page-3/sec1-frame-4/ojos-macha-3.png);
+  }
+  16% {
+      background-image: url(../img/page-3/sec1-frame-4/ojos-macha-2.png);
+  }
+  20% {
+      background-image: url(../img/page-3/sec1-frame-4/ojos-macha-1.png);
+  }
+  24% {
+      background-image: url(../img/page-3/sec1-frame-4/ojos-macha-1.png);
+  }
+  28%, 100% {
+      background-image: url(../img/page-3/sec1-frame-4/ojos-macha-1.png);
+  }
+}
+@keyframes marco-eyes {
+  0% {
+    background-image: url(../img/page-3/sec1-frame-1/ojos-papa-nino-1.png);
+  }
+  3% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-papa-nino-2.png);
+  }
+  6% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-papa-nino-3.png);
+  }
+  12% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-papa-nino-4.png);
+  }
+  15% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-papa-nino-3.png);
+  }
+  18% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-papa-nino-2.png);
+  }
+  21%, 100% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-papa-nino-1.png);
+  }
+}
+@keyframes children-head{
+  0%{ transform: rotate(0deg);}
+  50% { transform: rotate(3deg);}
+  100% { transform: rotate(0deg);}
+}
+@keyframes children-head-1{
+  0%{ transform: rotate(3deg);}
+  50% { transform: rotate(0deg);}
+  100% { transform: rotate(3deg);}
 }

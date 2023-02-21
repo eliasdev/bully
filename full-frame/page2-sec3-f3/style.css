@@ -288,11 +288,11 @@
   position: absolute;
 }
 .teacher-body img:nth-child(1){
-  width: 34%;
+  width: 72%;
   height: auto;
-  right: 1%;
+  right: -37%;
   left: auto;
-  top: 0%;
+  top: -42%;
   bottom: auto;
 }
 .teacher-body img:nth-child(2){

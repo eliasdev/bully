@@ -53,11 +53,11 @@
   position: absolute;
 }
 .teacher-body img:nth-child(1){
-  width: 34%;
+  width: 72%;
   height: auto;
-  right: 0%;
+  right: -37%;
   left: auto;
-  top: 3%;
+  top: -40%;
   bottom: auto;
 }
 .teacher-body img:nth-child(2){
