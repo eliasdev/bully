@@ -59,7 +59,7 @@
   background-size: 100% auto;
   transform-origin: bottom center;
   margin: 0 auto;
-  animation: companeros 0.8s steps(5) infinite;
+  animation: companeros 0.8s steps(5) infinite reverse;
 }
 @keyframes companeros {
   0% { background-position-y: 100%;}
