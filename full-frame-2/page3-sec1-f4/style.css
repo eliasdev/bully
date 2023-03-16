@@ -1,0 +1,993 @@
+.inner-box {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+.frame-4 .text {
+  width: 100%;
+  height: 40%;
+  top: 0;
+}
+/* FRAME 4 */
+
+.frame-4{
+  width: 100%;
+  height: 93%;
+  bottom: 0%;
+  left: 0%;
+  background: #b0d3de;
+  position: absolute;
+  overflow: hidden;
+}
+.school{
+  width: 100%;
+  height: 100%;
+  bottom: 0%;
+  left: 0%;
+  position: absolute;
+}
+.back-frame-1{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: auto 80%;
+  background-image: url("../img/frame1/cielo.png");
+  background-repeat: repeat-x;
+  animation: back-frame-1 300s infinite linear;
+}
+.frame-4 .school img:nth-child(1){
+  width: auto;
+  height: 58%;
+  left: -73%;
+  bottom: 0;
+}
+.frame-4 .school img:nth-child(2){
+  width: 30%;
+  height: auto;
+  right: 16%;
+  bottom: 6%;
+}
+.sun {
+  width: 35%;
+  height: 35%;
+  left: 4%;
+  top: -12%;
+  position: absolute;
+}
+.frame-4 .sun img:nth-child(1){
+  width: 100%;
+  height: auto;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transform-origin: center;
+  filter: blur(2px);
+  animation: sun-f1 5s infinite linear;
+}
+.frame-4 .sun img:nth-child(2){
+  width: 100%;
+  height: auto;
+  right: 0%;
+  left: auto;
+  bottom: 0;
+  opacity: 0;
+  transform-origin: center;
+  filter: blur(1px);
+  animation: sun-f1 5s 1s infinite linear;
+}
+.frame-4 .sun img:nth-child(3){
+  width: 100%;
+  height: auto;
+  right: -1%;
+  left: auto;
+  bottom: 0;
+  filter: blur(1px);
+}
+.text{
+  width: 100%;
+  height: 100%;
+  bottom: 0%;
+  left: 0%;
+  position: absolute;
+}
+.frame-4 .text img:nth-child(1){
+  width: 75%;
+  height: auto;
+  left: 0;
+  right: 0;
+  top: 65%;
+  margin: 0 auto;
+}
+
+/* tomy  */
+
+.frame-4 .tomy{
+  width: 20.2%;
+  height: 18.9%;
+  left: 45%;
+  bottom: 10%;
+  top: auto;
+  position: absolute;
+}
+.frame-4 .tomy img:nth-child(1){
+  width: 62%;
+  height: auto;
+  right: 22%;
+  left: auto;
+  top: auto;
+  bottom: 1%;
+}
+.frame-4 .tomy img:nth-child(2){
+  width: 47%;
+  height: auto;
+  right: 3%;
+  left: auto;
+  top: 6%;
+  bottom: auto;
+  transform-origin: left top;
+  animation: tomy-hair 5s infinite ease;
+}
+.frame-4 .tomy-eyes{
+  width: 47%;
+  height: 30%;
+  top: 53%;
+  right: 30%;
+  left: auto;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: tomy-eyes 2s infinite alternate ease-out;
+}
+.tomy-head{
+  width: 100%;
+  height: 46%;
+  right: 1%;
+  top: -3%;
+  position: absolute;
+  transform-origin: bottom center;
+  animation: tomy-head 5s infinite ease;
+}
+.frame-4 .tomy-head img:nth-child(1){
+  width: 75%;
+  height: auto;
+  left: 12%;
+  right: auto;
+  bottom: 3%;
+  top: auto;
+  position: absolute;
+}
+.tomy .tomy-head img:nth-child(2){
+  width: 75%;
+  height: auto;
+  right: 13%;
+  left: auto;
+  top: 3%;
+  bottom: auto;
+}
+.tomy-body{
+  width: 83%;
+  height: 50%;
+  right: 15%;
+  bottom: auto;
+  top: 22%;
+  position: absolute;
+  transform-origin: bottom center;
+  animation: tomy-breathing 5s infinite ease;
+}
+.tomy .tomy-body img:nth-child(1){
+  width: 24%;
+  height: auto;
+  right: 13%;
+  top: 44.8%;
+  left: auto;
+  transform-origin: bottom left;
+  animation: tomy-shoulders 2s infinite ease;
+}
+.tomy .tomy-body img:nth-child(2){
+  width: 52%;
+  height: auto;
+  left: -11%;
+  top: 24.8%;
+  right: auto;
+  transform-origin: bottom right;
+  animation: hand 3s infinite linear;
+}
+.tomy .tomy-body img:nth-child(3){
+  width: 47%;
+  height: auto;
+  left: 29%;
+  bottom: 0;
+  right: auto;
+  top: auto;
+  /* transform-origin: bottom center;
+  animation: tomy-breathing 5s infinite ease; */
+}
+.frame-4 .tomy-eyes{
+  width: 45%;
+  height: 26%;
+  top: 50%;
+  right: 31%;
+  left: auto;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: tomy-eyes 2s infinite alternate ease-out;
+}
+/* NIñO 2 */
+
+.frame-4 .gina{
+  width: 20.2%;
+  height: 18.9%;
+  right: 27%;
+  bottom: 17%;
+  top: auto;
+  position: absolute;
+}
+.gina img:nth-child(1){
+  width: 74%;
+  height: auto;
+  left: 13%;
+  top: 0%;
+  bottom: auto;
+}
+.gina-head{
+  width: 100%;
+  height: 46%;
+  right: -1%;
+  top: -1.1%;
+  position: absolute;
+  transform-origin: bottom center;
+  animation: children-head-1 3s infinite ease;
+}
+.gina-head img:nth-child(1){
+  width: 63%;
+  height: auto;
+  left: 17%;
+  top: 1.5%;
+  bottom: auto;
+}
+.gina-head .gina-eyes{
+  width: 41%;
+  height: 37%;
+  top: 52%;
+  right: 34%;
+  left: auto;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: gina-eyes 2.8s infinite alternate ease-out;
+}
+.gina-body{
+  width: 90%;
+  height: 50%;
+  right: 13%;
+  bottom: auto;
+  bottom: 10%;
+  position: absolute;
+  transform-origin: bottom center;
+}
+.gina-body img:nth-child(1){
+  width: 38%;
+  height: auto;
+  left: 15%;
+  top: -11.2%;
+  bottom: auto;
+  right: auto;
+  transform-origin: bottom right;
+  animation: hand-2 3.3s infinite linear;
+}
+.gina-body img:nth-child(2){
+  width: 58%;
+  height: auto;
+  right: 15%;
+  left: auto;
+  top: -1%;
+  bottom: auto;
+}
+/* NIñO 3 */
+
+.frame-4 .beto{
+  width: 23.2%;
+  height: 22.7%;
+  right: 11.5%;
+  bottom: 17%;
+  top: auto;
+  position: absolute;
+}
+.beto-head{
+  width: 100%;
+  height: 46%;
+  right: -1%;
+  top: 0.9%;
+  position: absolute;
+  transform-origin: bottom center;
+  animation: children-head 6.3s infinite ease;
+}
+.beto-eyes{
+  width: 38%;
+  height: 37%;
+  top: 46%;
+  right: 37%;
+  left: auto;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: beto-eyes 2.5s infinite alternate ease-out;
+}
+.beto-head img:nth-child(1){
+  width: 75%;
+  height: auto;
+  left: 12%;
+  top: 2%;
+  bottom: auto;
+  transform-origin: left top;
+  animation: tomy-hear 5s infinite ease;
+}
+.beto-body{
+  width: 90%;
+  height: 50%;
+  right: 13%;
+  bottom: 10%;
+  position: absolute;
+  transform-origin: bottom center;
+}
+.beto-body img:nth-child(1){
+  width: 38%;
+  height: auto;
+  left: 15%;
+  top: -11.2%;
+  bottom: auto;
+  right: auto;
+  transform-origin: bottom right;
+  animation: hand 3.1s infinite linear;
+}
+.beto-body img:nth-child(2){
+  width: 58%;
+  height: auto;
+  right: 15%;
+  left: auto;
+  top: -1%;
+  bottom: auto;
+}
+/* NIñO 4 */
+
+.frame-4 .mario{
+  width: 22.2%;
+  height: 21.9%;
+  right: 9%;
+  bottom: 8%;
+  top: auto;
+  position: absolute;
+}
+.mario img:nth-child(1){
+  width: 70%;
+  height: auto;
+  left: 12%;
+  top: 5%;
+  bottom: auto;
+  /* transform-origin: bottom center;
+  animation: children-head-2 7s infinite ease; */
+}
+.mario-head{
+  width: 100%;
+  height: 46%;
+  right: -1%;
+  top: 7.9%;
+  position: absolute;
+  /* transform-origin: bottom center;
+  animation: children-head-2 7s infinite ease; */
+}
+.mario-head .mario-eyes{
+  width: 47%;
+  height: 37%;
+  top: 39%;
+  right: 31%;
+  left: auto;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: mario-eyes 3s infinite alternate ease-out;
+}
+.mario-head .mario-mouth{
+  width: 9%;
+  height: 13%;
+  top: 67%;
+  left: 39%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  transform-origin: center;
+  animation: mario-mouth 2s infinite ease;
+}
+.mario-head img:nth-child(1){
+  width: 70%;
+  height: auto;
+  left: 12%;
+  top: 0%;
+  bottom: auto;
+}
+.mario-body{
+  width: 90%;
+  height: 50%;
+  right: 13%;
+  bottom: 4.5%;
+  position: absolute;
+  transform-origin: bottom center;
+}
+.mario-body img:nth-child(1){
+  width: 38%;
+  height: auto;
+  left: 9%;
+  top: -9.2%;
+  bottom: auto;
+  right: auto;
+  transform-origin: bottom right;
+  animation: hand-2 3.5s infinite linear;
+}
+.mario-body img:nth-child(2){
+  width: 58%;
+  height: auto;
+  right: 15%;
+  left: auto;
+  top: -1%;
+  bottom: auto;
+}
+
+/* tommy  */
+
+.frame-4 .tommy{
+  width: 22.2%;
+  height: 19.9%;
+  left: 18%;
+  bottom: 10%;
+  top: auto;
+  position: absolute;
+}
+.tommy-head{
+  width: 100%;
+  height: 46%;
+  right: 1%;
+  top: -3%;
+  position: absolute;
+}
+.tommy-head{
+  width: 100%;
+  height: 46%;
+  right: -1%;
+  top: -4%;
+  position: absolute;
+  transform-origin: bottom center;
+  animation: children-head 4s infinite ease;
+}
+.tommy-head img:nth-child(1){
+  width: 76%;
+  height: auto;
+  left: 6%;
+  top: -12%;
+  bottom: auto;
+}
+.tommy-head img:nth-child(2){
+  width: 8%;
+  height: auto;
+  right: 0;
+  left: 36%;
+  bottom: 21%;
+  transform-origin: bottom left;
+  animation: tommy-mouth 2s infinite ease;
+}
+
+.tommy-head .tommy-eyes{
+  width: 47%;
+  height: 54%;
+  top: 51%;
+  right: 28%;
+  left: auto;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: tommy-eyes 3s infinite alternate ease-out;
+}
+.tommy-body{
+  width: 83%;
+  height: 50%;
+  right: 15%;
+  bottom: 3%;
+  position: absolute;
+  transform-origin: bottom center;
+  animation: tomy-breathing 5s infinite ease;
+}
+.tommy .tommy-body img:nth-child(1){
+  width: 24%;
+  height: auto;
+  left: 19%;
+  top: -4.2%;
+  bottom: auto;
+  right: auto;
+  transform-origin: bottom left;
+  animation: tomy-shoulders 2s infinite ease;
+}
+.tommy .tommy-body img:nth-child(2){
+  width: 40%;
+  height: auto;
+  right: -4%;
+  top: -24.2%;
+  left: auto;
+  transform-origin: bottom right;
+  animation: tomy-shoulders 2s infinite ease;
+}
+.tommy .tommy-body img:nth-child(3){
+  width: 47%;
+  height: auto;
+  left: 29%;
+  bottom: 0;
+  right: auto;
+  top: auto;
+  /* transform-origin: bottom center;
+  animation: tomy-breathing 5s infinite ease; */
+}
+.tommy-eyebrowns{
+  width: 52%;
+  height: 33%;
+  top: 40%;
+  left: -3%;
+  right: 0;
+  margin: 0 auto;
+  position: absolute;
+}
+.frame-4 .tommy-eyebrowns img:nth-child(1) {
+  width: 28%;
+  height: auto;
+  left: 0%;
+  top: 0%;
+}
+.frame-4 .tommy-eyebrowns img:nth-child(2) {
+  width: 28%;
+  height: auto;
+  right: 6%;
+  top: 0%;
+}
+
+/* MARCO */
+
+.frame-4 .marco{
+  width: 22.2%;
+  height: 18.9%;
+  left: 30%;
+  bottom: 13%;
+  top: auto;
+  position: absolute;
+}
+.marco-head{
+  width: 100%;
+  height: 46%;
+  right: 1%;
+  top: -3%;
+  position: absolute;
+  transform-origin: bottom center;
+  animation: children-head-1 5s infinite ease;
+}
+.frame-4 .marco-head img:nth-child(1){
+  width: 90%;
+  height: auto;
+  left: 12%;
+  right: auto;
+  bottom: 4%;
+  top: auto;
+  position: absolute;
+}
+.frame-4 .marco-head img:nth-child(2){
+  width: 75%;
+  height: auto;
+  right: 13%;
+  left: auto;
+  top: 3%;
+  bottom: auto;
+}
+.marco-eyes{
+  width: 47%;
+  height: 37%;
+  top: 44%;
+  right: 12%;
+  left: auto;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: marco-eyes 3s infinite alternate ease;
+}
+.marco-body{
+  width: 83%;
+  height: 50%;
+  right: 1%;
+  bottom: 3%;
+  position: absolute;
+  transform-origin: bottom center;
+  animation: tomy-breathing 5s infinite ease;
+}
+.marco .marco-body img:nth-child(1){
+  width: 24%;
+  height: auto;
+  left: 23%;
+  top: -4.2%;
+  bottom: auto;
+  right: auto;
+  transform-origin: bottom left;
+  animation: tomy-shoulders 2s infinite ease;
+}
+.marco .marco-body img:nth-child(2){
+  width: 24%;
+  height: auto;
+  right: 10%;
+  top: -11.2%;
+  left: auto;
+  transform-origin: bottom right;
+  animation: tomy-shoulders 2s infinite ease;
+}
+.marco .marco-body img:nth-child(3){
+  width: 72%;
+  height: auto;
+  left: 19%;
+  bottom: 0;
+  right: auto;
+  top: auto;
+  /* transform-origin: bottom center;
+  animation: tomy-breathing 5s infinite ease; */
+}
+/* ANA  */
+.frame-4 .ana{
+  width: 20.2%;
+  height: 18.9%;
+  left: 5%;
+  bottom: 17%;
+  top: auto;
+  position: absolute;
+}
+.frame-4 .ana img:nth-child(1){
+  width: 44%;
+  height: auto;
+  left: -17%;
+  top: -4%;
+  bottom: auto;
+  transform-origin: right top;
+  animation: ana-hair-2 5s infinite ease;
+}
+.frame-4 .ana img:nth-child(2){
+  width: 44%;
+  height: auto;
+  right: -17%;
+  left: auto;
+  top: -3%;
+  bottom: auto;
+  transform-origin: left top;
+  animation: ana-hair-1 5s infinite ease;
+}
+
+.ana-head{
+  width: 100%;
+  height: 46%;
+  right: 2%;
+  top: -3%;
+  position: absolute
+}
+.frame-4 .ana-head img:nth-child(1){
+  width: 75%;
+  height: auto;
+  left: 12%;
+  right: auto;
+  bottom: 0%;
+  top: auto;
+  position: absolute;
+  animation: none;
+}
+.ana-body{
+  width: 83%;
+  height: 50%;
+  right: 15%;
+  bottom: 3%;
+  position: absolute;
+}
+.ana .ana-body img:nth-child(1){
+  width: 28%;
+  height: auto;
+  left: 16%;
+  top: -4.2%;
+  right: auto;
+  transform-origin: right center;
+  animation: children-head-2 2s infinite ease;
+}
+.ana .ana-body img:nth-child(2){
+  width: 50%;
+  height: auto;
+  right: -9%;
+  top: -24.2%;
+  left: auto;
+  transform-origin: left;
+  animation: hand 4s infinite linear;
+}
+.ana .ana-body img:nth-child(3){
+  width: 47%;
+  height: auto;
+  left: 29%;
+  bottom: 0;
+  right: auto;
+  top: auto;
+  /* transform-origin: bottom center;
+  animation: tomy-breathing 5s infinite ease; */
+}
+.frame-4 .ana-eyes{
+  width: 47%;
+  height: 37%;
+  top: 48%;
+  right: 29%;
+  left: auto;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: ana-eyes 2.3s infinite alternate ease;
+}
+.ana-eyebrowns{
+  width: 52%;
+  height: 33%;
+  top: 40%;
+  left: -3%;
+  right: 0;
+  margin: 0 auto;
+  position: absolute;
+}
+.frame-4 .ana-eyebrowns img:nth-child(1) {
+  width: 28%;
+  height: auto;
+  left: 0%;
+  top: 0%;
+}
+.frame-4 .ana-eyebrowns img:nth-child(2) {
+  width: 28%;
+  height: auto;
+  right: 6%;
+  top: 0%;
+}
+@keyframes ana-hair-1 {
+  0% {transform: skew(0deg);}
+  50% {transform: skew(-8deg) rotate(-6deg);}
+  100% {transform: skew(0deg);}
+}
+@keyframes ana-hair-2 {
+  0% {transform: skew(0deg);}
+  50% {transform: skew(8deg) rotate(6deg);}
+  100% {transform: skew(0deg);}
+}
+@keyframes tomy-hair {
+  0% { transform: skew(0deg);}
+  50% { transform: skew(8deg) rotate(-6deg);}
+  100% { transform: skew(0deg);}
+}
+@keyframes tomy-eyes {
+  0% {
+      background-image: url("../img/page-3/sec1-frame-1/ojos-tomy-1.png");
+  }
+  3% {
+      background-image: url("../img/page-3/sec1-frame-1/ojos-tomy-2.png");
+  }
+  6%{
+    background-image: url("../img/page-3/sec1-frame-1/ojos-tomy-3.png");
+  }
+  12%{
+    background-image: url("../img/page-3/sec1-frame-1/ojos-tomy-4.png");
+  }
+  15% {
+    background-image: url("../img/page-3/sec1-frame-1/ojos-tomy-3.png");
+  }
+  18% {
+    background-image: url("../img/page-3/sec1-frame-1/ojos-tomy-2.png");
+  }
+  20%, 100% {
+    background-image: url("../img/page-3/sec1-frame-1/ojos-tomy-1.png");
+  }
+}
+@keyframes hand{
+  0% {transform: skew(1deg) rotate(-10deg);}
+  10% {transform: skew(2deg) rotate(-8deg);}
+  20% {transform: skew(5deg) rotate(3deg);}
+  30% {transform: skew(5deg) rotate(5deg);}
+  40% {transform: skew(2deg) rotate(-8deg);}
+  100% {transform: skew(1deg) rotate(-10deg);}
+}
+@keyframes hand-2{
+  0% {transform: skew(1deg) rotate(10deg);}
+  10% {transform: skew(2deg) rotate(8deg);}
+  20% {transform: skew(5deg) rotate(3deg);}
+  30% {transform: skew(5deg) rotate(5deg);}
+  40% {transform: skew(2deg) rotate(8deg);}
+  100% {transform: skew(1deg) rotate(10deg);}
+}
+@keyframes tomy-head{
+  0%{ transform: rotate(0deg);}
+  5% { transform: rotate(3deg);}
+  10% { transform: rotate(0deg);}
+  100% { transform: rotate(0deg);}
+}
+@keyframes children-head{
+  0%{ transform: rotate(0deg);}
+  50% { transform: rotate(-3deg);}
+  100% { transform: rotate(0deg);}
+}
+@keyframes children-head-2{
+  0%{ transform: rotate(0deg);}
+  50% { transform: rotate(3deg);}
+  100% { transform: rotate(0deg);}
+}
+@keyframes tomy-breathing{
+  0%{ transform: scale(1);}
+  25% { transform: scale(1.02);}
+  60% { transform: scale(1);}
+  100% { transform: scale(1);}
+}
+@keyframes back-frame-1 {
+  100% {
+    background-position: 1104px 0px;
+  }
+}
+@keyframes sun-f1 {
+  0%{transform: scale(0.99); opacity: 0;}
+  25%{transform: scale(1.03); opacity: 0.3;}
+  50%{transform: scale(1.05); opacity: 0.5;}
+  75%{transform: scale(1.03); opacity: 0.3;}
+  100%{transform: scale(1.05); opacity: 0;}
+}
+@keyframes mario-eyes {
+  0% {
+    background-image: url(../img/page-3/sec1-frame-1/ojos-morada-1.png);
+  }
+  4% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-morada-2.png);
+  }
+  8% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-morada-3.png);
+  }
+  16% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-morada-2.png);
+  }
+  20% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-morada-1.png);
+  }
+  24% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-morada-1.png);
+  }
+  28%, 100% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-morada-1.png);
+  }
+}
+@keyframes mario-mouth{
+  0% { background-image: url("../img/page-3/sec1-frame-1/nina-3-boca-1.png");}
+  50% { background-image: url("../img/page-3/sec1-frame-1/nina-3-boca-2.png");}
+  100% { background-image: url("../img/page-3/sec1-frame-1/nina-3-boca-1.png");}
+}
+@keyframes gina-eyes {
+  0%,30%, 100% {
+    background-image: url(../img/page-3/sec1-frame-1/ojos-nina-mono-1.png);
+  }
+  10% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-nina-mono-2.png);
+  }
+  15% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-nina-mono-3.png);
+  }
+  20% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-nina-mono-2.png);
+  }
+  20% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-nina-mono-1.png);
+  }
+  25% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-nina-mono-1.png);
+  }
+  30%, 100% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-nina-mono-1.png);
+  }
+}
+@keyframes beto-eyes {
+  0% {
+    background-image: url(../img/page-3/sec1-frame-1/ojos-papa-nino-1.png);
+  }
+  3% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-papa-nino-2.png);
+  }
+  6% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-papa-nino-3.png);
+  }
+  12% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-papa-nino-4.png);
+  }
+  15% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-papa-nino-3.png);
+  }
+  18% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-papa-nino-2.png);
+  }
+  21%, 100% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-papa-nino-1.png);
+  }
+}
+@keyframes tommy-eyes {
+  0% {
+    background-image: url(../img/page-3/sec1-frame-1/ojos-nino-1-1.png);
+  }
+  4% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-nino-1-2.png);
+  }
+  8% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-nino-1-3.png);
+  }
+  12% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-nino-1-4.png);
+  }
+  16% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-nino-1-3.png);
+  }
+  20% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-nino-1-2.png);
+  }
+  24%, 100% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-nino-1-1.png);
+  }
+}
+@keyframes marco-eyes {
+  0% {
+    background-image: url(../img/page-3/sec1-frame-1/ojos-papa-nino-1.png);
+  }
+  3% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-papa-nino-2.png);
+  }
+  6% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-papa-nino-3.png);
+  }
+  12% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-papa-nino-4.png);
+  }
+  15% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-papa-nino-3.png);
+  }
+  18% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-papa-nino-2.png);
+  }
+  21%, 100% {
+      background-image: url(../img/page-3/sec1-frame-1/ojos-papa-nino-1.png);
+  }
+}
+@keyframes ana-eyes {
+  0% {
+    background-image: url(../img/page-3/sec1-frame-4/ojos-macha-1.png);
+  }
+  4% {
+      background-image: url(../img/page-3/sec1-frame-4/ojos-macha-2.png);
+  }
+  8% {
+      background-image: url(../img/page-3/sec1-frame-4/ojos-macha-3.png);
+  }
+  16% {
+      background-image: url(../img/page-3/sec1-frame-4/ojos-macha-2.png);
+  }
+  20% {
+      background-image: url(../img/page-3/sec1-frame-4/ojos-macha-1.png);
+  }
+  24% {
+      background-image: url(../img/page-3/sec1-frame-4/ojos-macha-1.png);
+  }
+  28%, 100% {
+      background-image: url(../img/page-3/sec1-frame-4/ojos-macha-1.png);
+  }
+}
+@keyframes children-head{
+  0%{ transform: rotate(0deg);}
+  50% { transform: rotate(3deg);}
+  100% { transform: rotate(0deg);}
+}
+@keyframes children-head-1{
+  0%{ transform: rotate(3deg);}
+  50% { transform: rotate(0deg);}
+  100% { transform: rotate(3deg);}
+}

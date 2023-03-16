@@ -1,0 +1,166 @@
+.frame-3 .text {
+    height: 30%;
+    top: 5%;
+}
+/* FRAME 3 */
+
+.frame-3 {
+  width: 100%;
+  height: 100%;
+  bottom: 0%;
+  right: 0%;
+  /* border: 0.2em solid #000000; */
+  background: #7DB4D8;
+  position: absolute;
+  overflow: hidden;
+}
+.frame-3 .text img:nth-child(1){
+  width: 80%;
+  height: auto;
+  top: 0;
+  left: 10%;
+}
+.frame-3 .text img:nth-child(2){
+  width: 45%;
+  height: auto;
+  bottom: 24%;
+  right: 4%;
+  left: auto;
+}
+.frame-3 .text img:nth-child(3){
+  width: 45%;
+  height: auto;
+  bottom: 24%;
+  left: 4%;
+  right: auto;
+}
+.frame-3 .montain {
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+.frame-3 .montain img:nth-child(1){
+  width: auto;
+  height: 38%;
+  bottom: 0;
+  right: 0;
+}
+.back-frame-3{
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  background-size: auto 80%;
+  background-image: url("../img/frame2/nubes.png");
+  background-repeat: repeat-x;
+  animation: back-frame-3 300s infinite linear;
+}
+.frame-3 .joe{
+  width: 96%;
+  height: 83%;
+  left: -12%;
+  bottom: -20%;
+  top: auto;
+  position: absolute;
+}
+.frame-3 .joe img:nth-child(1){
+  width: 65%;
+  height: auto;
+  left: 18%;
+  bottom: 0%;
+  top: auto;
+  position: absolute;
+}
+.joe-head{
+  width: 100%;
+  height: 46%;
+  right: -1%;
+  top: -3%;
+  position: absolute;
+  transform-origin: bottom center;
+  animation: joe-head 5s infinite ease;
+}
+.joe .joe-head img:nth-child(1){
+  width: 90%;
+  height: auto;
+  right: 0%;
+  left: auto;
+  top: 0;
+  bottom: auto;
+}
+.joe-body{
+  width: 78%;
+  height: 47%;
+  right: 14%;
+  bottom: auto;
+  top: 25%;
+  position: absolute;
+  transform-origin: bottom center;
+  animation: joe-breathing 5s infinite ease;
+}
+.joe .joe-body img:nth-child(1){
+  width: 25%;
+  height: auto;
+  right: 15%;
+  left: auto;
+  top: 45.8%;
+}
+.joe .joe-body img:nth-child(2){
+  width: 25%;
+  height: auto;
+  left: 19.4%;
+  top: 43.4%;
+  right: auto;
+}
+.joe .joe-body img:nth-child(3){
+  width: 47%;
+  height: auto;
+  left: 29%;
+  bottom: 0;
+  right: auto;
+  top: auto;
+  /* transform-origin: bottom center;
+  animation: joe-breathing 5s infinite ease; */
+}
+.frame-3 .joe-eyes{
+  width: 43%;
+  height: 27%;
+  top: 55%;
+  right: 36%;
+  left: auto;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  animation: joe-eyes 2s infinite alternate ease-out;
+}
+@keyframes joe-head{
+  0%{ transform: rotate(0deg);}
+  50% { transform: rotate(3deg);}
+  100% { transform: rotate(0deg);}
+}
+@keyframes joe-breathing{
+  0%{ transform: scale(1);}
+  25% { transform: scale(1.02);}
+  60% { transform: scale(1);}
+  100% { transform: scale(1);}
+}
+@keyframes back-frame-3 {
+  100% {
+    background-position: 1104px 0px;
+  }
+}
+@keyframes joe-eyes {
+  0% {
+      background-image: url("../img/frame3/ojos-joe-1.png");
+  }
+  5% {
+      background-image: url("../img/frame3/ojos-joe-2.png");
+  }
+  10%{
+    background-image: url("../img/frame3/ojos-joe-3.png");
+  }
+  100% {
+    background-image: url("../img/frame3/ojos-joe-3.png");
+  }
+}
