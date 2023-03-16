@@ -139,7 +139,7 @@
   transform-origin: center;
   animation: fother-mostach 1.5s infinite ease;
 }
-.frame-1 .vale{
+.frame-1 .tomy{
   width: 13.2%;
   height: 35.9%;
   left: 26%;
@@ -147,7 +147,7 @@
   top: auto;
   position: absolute;
 }
-.frame-1 .vale img:nth-child(1){
+.frame-1 .tomy img:nth-child(1){
   width: 62%;
   height: auto;
   right: 22%;
@@ -155,17 +155,7 @@
   top: auto;
   bottom: 1%;
 }
-.frame-1 .vale img:nth-child(2){
-  width: 47%;
-  height: auto;
-  right: 3%;
-  left: auto;
-  top: 6%;
-  bottom: auto;
-  transform-origin: left top;
-  animation: vale-hair 5s infinite ease;
-}
-.frame-1 .vale-eyes{
+.frame-1 .tomy-eyes{
   width: 47%;
   height: 30%;
   top: 53%;
@@ -174,18 +164,18 @@
   position: absolute;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  animation: vale-eyes 2s infinite alternate ease-out;
+  animation: tomy-eyes 2s infinite alternate ease-out;
 }
-.vale-head{
+.tomy-head{
   width: 100%;
   height: 46%;
   right: 1%;
   top: -3%;
   position: absolute;
   transform-origin: bottom center;
-  animation: vale-head 5s infinite ease;
+  animation: tomy-head 5s infinite ease;
 }
-.frame-1 .vale-head img:nth-child(1){
+.frame-1 .tomy-head img:nth-child(1){
   width: 75%;
   height: auto;
   left: 12%;
@@ -194,7 +184,7 @@
   top: auto;
   position: absolute;
 }
-.vale .vale-head img:nth-child(2){
+.tomy .tomy-head img:nth-child(2){
   width: 75%;
   height: auto;
   right: 13%;
@@ -202,7 +192,7 @@
   top: 3%;
   bottom: auto;
 }
-.vale-body{
+.tomy-body{
   width: 83%;
   height: 50%;
   right: 15%;
@@ -210,27 +200,27 @@
   top: 22%;
   position: absolute;
   transform-origin: bottom center;
-  animation: vale-breathing 5s infinite ease;
+  animation: tomy-breathing 5s infinite ease;
 }
-.vale .vale-body img:nth-child(1){
+.tomy .tomy-body img:nth-child(1){
   width: 24%;
   height: auto;
   right: 13%;
   top: 44.8%;
   left: auto;
   transform-origin: bottom left;
-  animation: vale-shoulders 2s infinite ease;
+  animation: tomy-shoulders 2s infinite ease;
 }
-.vale .vale-body img:nth-child(2){
+.tomy .tomy-body img:nth-child(2){
   width: 24%;
   height: auto;
   left: 17%;
   top: 44.8%;
   right: auto;
   transform-origin: bottom right;
-  animation: vale-shoulders 2s infinite ease;
+  animation: tomy-shoulders 2s infinite ease;
 }
-.vale .vale-body img:nth-child(3){
+.tomy .tomy-body img:nth-child(3){
   width: 47%;
   height: auto;
   left: 29%;
@@ -238,9 +228,9 @@
   right: auto;
   top: auto;
   /* transform-origin: bottom center;
-  animation: vale-breathing 5s infinite ease; */
+  animation: tomy-breathing 5s infinite ease; */
 }
-.frame-1 .vale-eyes{
+.frame-1 .tomy-eyes{
   width: 45%;
   height: 26%;
   top: 50%;
@@ -249,7 +239,7 @@
   position: absolute;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  animation: vale-eyes 2s infinite alternate ease-out;
+  animation: tomy-eyes 2s infinite alternate ease-out;
 }
   /* NIñO */
 
@@ -325,7 +315,7 @@
   right: auto;
   top: auto;
   /* transform-origin: bottom center;
-  animation: vale-breathing 5s infinite ease; */
+  animation: tomy-breathing 5s infinite ease; */
 }
 
 /* NIñO 2 */
@@ -433,7 +423,7 @@
   top: 0%;
   bottom: auto;
   transform-origin: left top;
-  animation: vale-hear 5s infinite ease;
+  animation: tomy-hear 5s infinite ease;
 }
 .beto-body{
   width: 90%;
@@ -640,7 +630,7 @@
   top: -4%;
   position: absolute;
   transform-origin: bottom center;
-  /* animation: vale-head 5s infinite ease; */
+  /* animation: tomy-head 5s infinite ease; */
 }
 .frame-1 .teacher-eyes{
   width: 54%;
@@ -743,7 +733,7 @@
   top: -4%;
   position: absolute;
   transform-origin: bottom center;
-  /* animation: vale-head 5s infinite ease; */
+  /* animation: tomy-head 5s infinite ease; */
 }
 .frame-1 .teacher-2-eyes{
   width: 54%;
@@ -852,7 +842,7 @@
   top:0%;
   position: absolute;
   transform-origin: bottom center;
-  /* animation: vale-head 5s infinite ease; */
+  /* animation: tomy-head 5s infinite ease; */
 }
 .frame-1 .peliroja-eyes{
   width: 65%;
@@ -1139,7 +1129,7 @@
   40% {transform: skew(2deg) rotate(8deg);}
   100% {transform: skew(1deg) rotate(10deg);}
 }
-@keyframes vale-head{
+@keyframes tomy-head{
   0%{ transform: rotate(0deg);}
   5% { transform: rotate(3deg);}
   10% { transform: rotate(0deg);}
@@ -1155,7 +1145,7 @@
   50% { transform: rotate(3deg);}
   100% { transform: rotate(0deg);}
 }
-@keyframes vale-breathing{
+@keyframes tomy-breathing{
   0%{ transform: scale(1);}
   25% { transform: scale(1.02);}
   60% { transform: scale(1);}
@@ -1369,27 +1359,27 @@
       background-image: url(../img/page-2/sec3-frame-2/ojo-maestra-1.png);
   }
 }
-@keyframes vale-eyes {
+@keyframes tomy-eyes {
   0% {
-      background-image: url("../img/page-3/sec1-frame-1/ojos-vale-1.png");
+      background-image: url("../img/page-3/sec1-frame-1/ojos-tomy-1.png");
   }
   3% {
-      background-image: url("../img/page-3/sec1-frame-1/ojos-vale-2.png");
+      background-image: url("../img/page-3/sec1-frame-1/ojos-tomy-2.png");
   }
   6%{
-    background-image: url("../img/page-3/sec1-frame-1/ojos-vale-3.png");
+    background-image: url("../img/page-3/sec1-frame-1/ojos-tomy-3.png");
   }
   12%{
-    background-image: url("../img/page-3/sec1-frame-1/ojos-vale-4.png");
+    background-image: url("../img/page-3/sec1-frame-1/ojos-tomy-4.png");
   }
   15% {
-    background-image: url("../img/page-3/sec1-frame-1/ojos-vale-3.png");
+    background-image: url("../img/page-3/sec1-frame-1/ojos-tomy-3.png");
   }
   18% {
-    background-image: url("../img/page-3/sec1-frame-1/ojos-vale-2.png");
+    background-image: url("../img/page-3/sec1-frame-1/ojos-tomy-2.png");
   }
   20%, 100% {
-    background-image: url("../img/page-3/sec1-frame-1/ojos-vale-1.png");
+    background-image: url("../img/page-3/sec1-frame-1/ojos-tomy-1.png");
   }
 }
 @keyframes teacher-2-eyes {
@@ -1412,7 +1402,7 @@
     background-image: url("../img/page-3/sec1-frame-1/ojos-1.png");
   }
 }
-@keyframes vale-hair {
+@keyframes tomy-hair {
   0% { transform: skew(0deg);}
   50% { transform: skew(8deg) rotate(-6deg);}
   100% { transform: skew(0deg);}

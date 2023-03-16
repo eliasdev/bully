@@ -238,7 +238,7 @@
   transform-origin: center;
   animation: father-eye-pupils 8s infinite ease;
 }
-.frame-3 .vale{
+.frame-3 .tomy{
   width: 26%;
   height: 49%;
   right: 6%;
@@ -246,7 +246,7 @@
   top: auto;
   position: absolute;
 }
-.frame-3 .vale img:nth-child(1){
+.frame-3 .tomy img:nth-child(1){
   width: 62%;
   height: auto;
   right: 20%;
@@ -254,13 +254,7 @@
   top: auto;
   bottom: 1%;
 }
-.frame-3 .vale img:nth-child(2){
-  width: 100%;
-  height: auto;
-  left: 0%;
-  top: 6%;
-}
-.frame-3 .vale-eyes{
+.frame-3 .tomy-eyes{
   width: 47%;
   height: 30%;
   top: 53%;
@@ -269,9 +263,9 @@
   position: absolute;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  animation: vale-eyes 2s infinite alternate ease-out;
+  animation: tomy-eyes 2s infinite alternate ease-out;
 }
-.frame-3 .vale{
+.frame-3 .tomy{
   width: 31%;
   height: 59.9%;
   right: 5%;
@@ -279,7 +273,7 @@
   top: auto;
   position: absolute;
 }
-.frame-3 .vale img:nth-child(1){
+.frame-3 .tomy img:nth-child(1){
   width: 65%;
   height: auto;
   left: 18%;
@@ -287,7 +281,7 @@
   top: auto;
   position: absolute;
 }
-.frame-3 .vale img:nth-child(2){
+.frame-3 .tomy img:nth-child(2){
   width: 47%;
   height: auto;
   right: 3%;
@@ -295,18 +289,18 @@
   top: 6%;
   bottom: auto;
   transform-origin: left top;
-  animation: vale-hair 5s infinite ease;
+  animation: tomy-hair 5s infinite ease;
 }
-.vale-head{
+.tomy-head{
   width: 100%;
   height: 46%;
   right: 1%;
   top: -3%;
   position: absolute;
   transform-origin: bottom center;
-  animation: vale-head 5s infinite ease;
+  animation: tomy-head 5s infinite ease;
 }
-.vale .vale-head img:nth-child(2){
+.tomy .tomy-head img:nth-child(2){
   width: 75%;
   height: auto;
   right: 13%;
@@ -314,7 +308,7 @@
   top: 3%;
   bottom: auto;
 }
-.vale-body{
+.tomy-body{
   width: 82%;
   height: 50%;
   right: 13%;
@@ -322,27 +316,27 @@
   top: 22%;
   position: absolute;
   transform-origin: bottom center;
-  animation: vale-breathing 5s infinite ease;
+  animation: tomy-breathing 5s infinite ease;
 }
-.vale .vale-body img:nth-child(1){
+.tomy .tomy-body img:nth-child(1){
   width: 36%;
   height: auto;
   right: 0%;
   top: 32.8%;
   left: auto;
   transform-origin: bottom left;
-  animation: vale-shoulders 2s infinite ease;
+  animation: tomy-shoulders 2s infinite ease;
 }
-.vale .vale-body img:nth-child(2){
+.tomy .tomy-body img:nth-child(2){
   width: 36%;
   height: auto;
   left: 3%;
   top: 32.8%;
   right: auto;
   transform-origin: bottom right;
-  animation: vale-shoulders 2s infinite ease;
+  animation: tomy-shoulders 2s infinite ease;
 }
-.vale .vale-body img:nth-child(3){
+.tomy .tomy-body img:nth-child(3){
   width: 47%;
   height: auto;
   left: 29%;
@@ -350,9 +344,9 @@
   right: auto;
   top: auto;
   /* transform-origin: bottom center;
-  animation: vale-breathing 5s infinite ease; */
+  animation: tomy-breathing 5s infinite ease; */
 }
-.frame-3 .vale-eyes{
+.frame-3 .tomy-eyes{
   width: 41%;
   height: 26%;
   top: 58%;
@@ -361,9 +355,9 @@
   position: absolute;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  animation: vale-eyes 2s infinite alternate ease-out;
+  animation: tomy-eyes 2s infinite alternate ease-out;
 }
-@keyframes vale-shoulders {
+@keyframes tomy-shoulders {
   0% {
     transform: skew(0deg, 0deg);
   }
@@ -374,26 +368,26 @@
       transform: skew(0deg, 0deg);
   }
 }
-@keyframes vale-eyes {
+@keyframes tomy-eyes {
   0% {
-      background-image: url(../img/frame3/ojos-vale-1.png);
+      background-image: url(../img/frame3/ojos-tomy-1.png);
   }
   5% {
-      background-image: url(../img/frame3/ojos-vale-2.png);
+      background-image: url(../img/frame3/ojos-tomy-2.png);
   }
   10% {
-      background-image: url(../img/frame3/ojos-vale-3.png);
+      background-image: url(../img/frame3/ojos-tomy-3.png);
   }
   100% {
-      background-image: url(../img/frame3/ojos-vale-3.png);
+      background-image: url(../img/frame3/ojos-tomy-3.png);
   }
 }
-@keyframes vale-hair {
+@keyframes tomy-hair {
   0% { transform: skew(0deg);}
   50% { transform: skew(8deg) rotate(-6deg);}
   100% { transform: skew(0deg);}
 }
-@keyframes vale-head{
+@keyframes tomy-head{
   0%{ transform: rotate(0deg);}
   50% { transform: rotate(6deg);}
   100% { transform: rotate(0deg);}
@@ -410,7 +404,7 @@
   10% { transform: rotate(0deg) skew(1deg, 2deg);}
   100% { transform: rotate(0deg) skew(1deg, 2deg);}
 }
-@keyframes vale-breathing{
+@keyframes tomy-breathing{
   0%{ transform: scale(1);}
   25% { transform: scale(1.02);}
   60% { transform: scale(1);}
@@ -514,17 +508,17 @@
       background-image: url(../img/frame4y5/boca_mama1.png);
   }
 }
-@keyframes vale-eyes {
+@keyframes tomy-eyes {
   0% {
-      background-image: url("../img/frame3/ojos-vale-1.png");
+      background-image: url("../img/frame3/ojos-tomy-1.png");
   }
   5% {
-      background-image: url("../img/frame3/ojos-vale-2.png");
+      background-image: url("../img/frame3/ojos-tomy-2.png");
   }
   10%{
-    background-image: url("../img/frame3/ojos-vale-3.png");
+    background-image: url("../img/frame3/ojos-tomy-3.png");
   }
   100% {
-    background-image: url("../img/frame3/ojos-vale-3.png");
+    background-image: url("../img/frame3/ojos-tomy-3.png");
   }
 }

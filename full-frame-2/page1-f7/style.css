@@ -192,7 +192,7 @@
   transform-origin: center;
   animation: father-eye-pupils 8s infinite ease;
 }
-.frame-7 .vale{
+.frame-7 .tomy{
   width: 46%;
   height: 68%;
   right: 6%;
@@ -200,7 +200,7 @@
   top: auto;
   position: absolute;
 }
-.frame-7 .vale img:nth-child(1){
+.frame-7 .tomy img:nth-child(1){
   width: 62%;
   height: auto;
   right: 10%;
@@ -208,13 +208,13 @@
   top: auto;
   bottom: 0;
 }
-.frame-7 .vale img:nth-child(2){
+.frame-7 .tomy img:nth-child(2){
   width: 100%;
   height: auto;
   left: 0%;
   top: 6%;
 }
-.frame-7 .vale-eyes{
+.frame-7 .tomy-eyes{
   width: 47%;
   height: 13%;
   top: 34%;
@@ -223,7 +223,7 @@
   position: absolute;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  animation: vale-eyes 2s infinite alternate ease-out;
+  animation: tomy-eyes 2s infinite alternate ease-out;
 }
 
 @keyframes father-eye-pupils {
@@ -319,17 +319,17 @@
       background-image: url(../img/frame4y5/boca_mama1.png);
   }
 }
-@keyframes vale-eyes {
+@keyframes tomy-eyes {
   0% {
-      background-image: url("../img/frame3/ojos-vale-1.png");
+      background-image: url("../img/frame3/ojos-tomy-1.png");
   }
   5% {
-      background-image: url("../img/frame3/ojos-vale-2.png");
+      background-image: url("../img/frame3/ojos-tomy-2.png");
   }
   10%{
-    background-image: url("../img/frame3/ojos-vale-3.png");
+    background-image: url("../img/frame3/ojos-tomy-3.png");
   }
   100% {
-    background-image: url("../img/frame3/ojos-vale-3.png");
+    background-image: url("../img/frame3/ojos-tomy-3.png");
   }
 }

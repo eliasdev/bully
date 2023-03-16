@@ -60,7 +60,7 @@
   background-repeat: repeat-x;
   animation: back-frame-3 300s infinite linear;
 }
-.frame-5 .vale{
+.frame-5 .tomy{
   width: 26%;
   height: 49%;
   right: 6%;
@@ -68,7 +68,7 @@
   top: auto;
   position: absolute;
 }
-.frame-5 .vale img:nth-child(1){
+.frame-5 .tomy img:nth-child(1){
   width: 62%;
   height: auto;
   right: 20%;
@@ -76,13 +76,13 @@
   top: auto;
   bottom: 1%;
 }
-.frame-5 .vale img:nth-child(2){
+.frame-5 .tomy img:nth-child(2){
   width: 100%;
   height: auto;
   left: 0%;
   top: 6%;
 }
-.frame-5 .vale-eyes{
+.frame-5 .tomy-eyes{
   width: 47%;
   height: 30%;
   top: 53%;
@@ -91,9 +91,9 @@
   position: absolute;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  animation: vale-eyes 2.5s infinite alternate ease;
+  animation: tomy-eyes 2.5s infinite alternate ease;
 }
-.frame-5 .vale{
+.frame-5 .tomy{
   width: 31%;
   height: 73.9%;
   right: 34%;
@@ -101,7 +101,7 @@
   top: auto;
   position: absolute;
 }
-.frame-5 .vale img:nth-child(1){
+.frame-5 .tomy img:nth-child(1){
   width: 66%;
   height: auto;
   left: 16%;
@@ -110,7 +110,7 @@
   top: auto;
   position: absolute;
 }
-.frame-5 .vale img:nth-child(2){
+.frame-5 .tomy img:nth-child(2){
   width: 54%;
   height: auto;
   right: -4%;
@@ -118,18 +118,18 @@
   top: -3%;
   bottom: auto;
   transform-origin: left top;
-  animation: vale-hair 5s infinite ease;
+  animation: tomy-hair 5s infinite ease;
 }
-.vale-head{
+.tomy-head{
   width: 100%;
   height: 46%;
   right: 1%;
   top: -3%;
   position: absolute;
   transform-origin: bottom center;
-  animation: vale-head 5s infinite ease;
+  animation: tomy-head 5s infinite ease;
 }
-.frame-5 .vale-head img:nth-child(1){
+.frame-5 .tomy-head img:nth-child(1){
   width: 76%;
   height: auto;
   left: 11%;
@@ -138,7 +138,7 @@
   top: auto;
   position: absolute;
 }
-.vale .vale-head img:nth-child(2){
+.tomy .tomy-head img:nth-child(2){
   width: 75%;
   height: auto;
   right: 13%;
@@ -146,7 +146,7 @@
   top: 3%;
   bottom: auto;
 }
-.vale-body{
+.tomy-body{
   width: 82%;
   height: 50%;
   right: 13%;
@@ -154,27 +154,27 @@
   top: 22%;
   position: absolute;
   transform-origin: bottom center;
-  animation: vale-breathing 5s infinite ease;
+  animation: tomy-breathing 5s infinite ease;
 }
-.vale .vale-body img:nth-child(1){
+.tomy .tomy-body img:nth-child(1){
   width: 53%;
   height: auto;
   right: -14%;
   top: 25.6%;
   left: auto;
   transform-origin: bottom left;
-  animation: vale-shoulders 2s infinite ease;
+  animation: tomy-shoulders 2s infinite ease;
 }
-.vale .vale-body img:nth-child(2){
+.tomy .tomy-body img:nth-child(2){
   width: 53%;
   height: auto;
   left: -9%;
   top: 25.8%;
   right: auto;
   transform-origin: bottom right;
-  animation: vale-shoulders 2s infinite ease;
+  animation: tomy-shoulders 2s infinite ease;
 }
-.vale .vale-body img:nth-child(3){
+.tomy .tomy-body img:nth-child(3){
   width: 47%;
   height: auto;
   left: 29%;
@@ -182,9 +182,9 @@
   right: auto;
   top: auto;
   /* transform-origin: bottom center;
-  animation: vale-breathing 5s infinite ease; */
+  animation: tomy-breathing 5s infinite ease; */
 }
-.frame-5 .vale-eyes{
+.frame-5 .tomy-eyes{
   width: 50%;
   height: 26%;
   top: 52%;
@@ -193,7 +193,7 @@
   position: absolute;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  animation: vale-eyes 2s infinite alternate ease-out;
+  animation: tomy-eyes 2s infinite alternate ease-out;
 }
 /* MARCO */
 
@@ -249,7 +249,7 @@
   bottom: 0%;
   position: absolute;
   transform-origin: bottom center;
-  /* animation: vale-breathing 5s infinite ease; */
+  /* animation: tomy-breathing 5s infinite ease; */
 }
 .marco .marco-body img:nth-child(1){
   width: 24%;
@@ -285,7 +285,7 @@
   top: 13%;
   right: auto;
   transform-origin: bottom center;
-  animation: vale-breathing 5s infinite ease;
+  animation: tomy-breathing 5s infinite ease;
 }
 /* ANA  */
 .frame-5 .ana{
@@ -375,7 +375,7 @@
   right: auto;
   top: auto;
   /* transform-origin: bottom center;
-  animation: vale-breathing 5s infinite ease; */
+  animation: tomy-breathing 5s infinite ease; */
 }
 .frame-5 .ana-eyes{
   width: 47%;
@@ -409,12 +409,12 @@
   right: 6%;
   top: 0%;
 }
-@keyframes vale-head{
+@keyframes tomy-head{
   0%{ transform: rotate(0deg);}
   50% { transform: rotate(3deg);}
   100% { transform: rotate(0deg);}
 }
-@keyframes vale-breathing{
+@keyframes tomy-breathing{
   0%{ transform: scale(1);}
   25% { transform: scale(1.02);}
   60% { transform: scale(1);}
@@ -425,30 +425,30 @@
     background-position: 1104px 0px;
   }
 }
-@keyframes vale-eyes {
+@keyframes tomy-eyes {
   0% {
-      background-image: url("../img/page-3/sec1-frame-1/ojos-vale-1.png");
+      background-image: url("../img/page-3/sec1-frame-1/ojos-tomy-1.png");
   }
   3% {
-      background-image: url("../img/page-3/sec1-frame-1/ojos-vale-2.png");
+      background-image: url("../img/page-3/sec1-frame-1/ojos-tomy-2.png");
   }
   6%{
-    background-image: url("../img/page-3/sec1-frame-1/ojos-vale-3.png");
+    background-image: url("../img/page-3/sec1-frame-1/ojos-tomy-3.png");
   }
   12%{
-    background-image: url("../img/page-3/sec1-frame-1/ojos-vale-4.png");
+    background-image: url("../img/page-3/sec1-frame-1/ojos-tomy-4.png");
   }
   15% {
-    background-image: url("../img/page-3/sec1-frame-1/ojos-vale-3.png");
+    background-image: url("../img/page-3/sec1-frame-1/ojos-tomy-3.png");
   }
   18% {
-    background-image: url("../img/page-3/sec1-frame-1/ojos-vale-2.png");
+    background-image: url("../img/page-3/sec1-frame-1/ojos-tomy-2.png");
   }
   20%, 100% {
-    background-image: url("../img/page-3/sec1-frame-1/ojos-vale-1.png");
+    background-image: url("../img/page-3/sec1-frame-1/ojos-tomy-1.png");
   }
 }
-@keyframes vale-hair {
+@keyframes tomy-hair {
   0% { transform: skew(0deg);}
   50% { transform: skew(4deg) rotate(-3deg);}
   100% { transform: skew(0deg);}
@@ -475,7 +475,7 @@
   10% { transform: rotate(0deg);}
   100% { transform: rotate(0deg);}
 }
-@keyframes vale-shoulders {
+@keyframes tomy-shoulders {
   0% {
     transform: skew(0deg, 0deg);
   }
