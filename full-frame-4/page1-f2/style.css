@@ -148,10 +148,10 @@
   position: absolute;
 }
 .frame-2 .mo img:nth-child(1){
-  width: 65%;
+  width: 40%;
   height: auto;
-  left: 18%;
-  bottom: 0%;
+  left: 24%;
+  bottom: 11%;
   top: auto;
   position: absolute;
 }
@@ -184,28 +184,28 @@
   animation: mo-breathing 5s infinite ease;
 }
 .mo .mo-body img:nth-child(1){
-  width: 25%;
+  width: 21%;
   height: auto;
-  right: 14%;
+  right: 15%;
   left: auto;
-  top: 46.8%;
+  top: 64.8%;
   transform-origin: top;
   animation: Shoulders-1 5s infinite ease;
 }
 .mo .mo-body img:nth-child(2){
-  width: 55%;
+  width: 42%;
   height: auto;
-  left: -12%;
-  top: 22.8%;
+  left: -8%;
+  top: 48.8%;
   right: auto;
   transform-origin: bottom right;
   animation: content-comet 3s infinite linear;
 }
 .mo .mo-body img:nth-child(3){
-  width: 47%;
+  width: 37%;
   height: auto;
-  left: 29%;
-  bottom: 0;
+  left: 30%;
+  bottom: 4%;
   right: auto;
   top: auto;
   /* transform-origin: bottom center;

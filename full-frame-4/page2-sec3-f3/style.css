@@ -184,15 +184,15 @@
   transform-origin: center;
   animation: father-eye-pupils 8s infinite ease;
 }
-.frame-3 .joe img:nth-child(1){
-  width: 65%;
+.frame-3 .mo img:nth-child(1){
+  width: 35%;
   height: auto;
-  left: 18%;
-  bottom: 0%;
+  left: 31%;
+  bottom: 15%;
   top: auto;
   position: absolute;
 }
-.frame-3 .joe{
+.frame-3 .mo{
   width: 17%;
   height: 46%;
   right: 9%;
@@ -200,52 +200,52 @@
   top: auto;
   position: absolute;
 }
-.joe-head{
+.mo-head{
   width: 100%;
   height: 46%;
   right: -1%;
-  top: -3%;
+  top: 9%;
   position: absolute;
   transform-origin: bottom center;
-  animation: joe-head 5s infinite ease;
+  animation: mo-head 5s infinite ease;
 }
-.joe .joe-head img:nth-child(1){
-  width: 90%;
+.mo .mo-head img:nth-child(1){
+  width: 100%;
   height: auto;
   right: 0%;
   left: auto;
   top: 0;
   bottom: auto;
 }
-.joe-body{
-  width: 82%;
+.mo-body{
+  width: 61%;
   height: 50%;
-  right: 13%;
+  right: 21%;
   bottom: auto;
-  top: 22%;
+  top: 16%;
   position: absolute;
   transform-origin: bottom center;
-  animation: joe-breathing 5s infinite ease;
+  animation: mo-breathing 5s infinite ease;
 }
-.joe .joe-body img:nth-child(1){
+.mo .mo-body img:nth-child(1){
   width: 25%;
   height: auto;
-  right: 14%;
+  right: 0%;
   left: auto;
-  top: 46.8%;
+  top: 68.8%;
   transform-origin: top;
   animation: Shoulders-1 5s infinite ease;
 }
-.joe .joe-body img:nth-child(2){
-  width: 25%;
+.mo .mo-body img:nth-child(2){
+  width: 30%;
   height: auto;
-  left: 18%;
-  top: 44.8%;
+  left: 2%;
+  top: 68.8%;
   right: auto;
   transform-origin: top;
   animation: Shoulders-2 5s infinite ease;
 }
-.joe .joe-body img:nth-child(3){
+.mo .mo-body img:nth-child(3){
   width: 47%;
   height: auto;
   left: 29%;
@@ -253,18 +253,18 @@
   right: auto;
   top: auto;
   /* transform-origin: bottom center;
-  animation: joe-breathing 5s infinite ease; */
+  animation: mo-breathing 5s infinite ease; */
 }
-.frame-3 .joe-eyes{
+.frame-3 .mo-eyes{
   width: 43%;
   height: 27%;
-  top: 55%;
-  right: 36%;
+  top: 49%;
+  right: 29%;
   left: auto;
   position: absolute;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  animation: joe-eyes 2s infinite alternate ease-out;
+  animation: mo-eyes 2s infinite alternate ease-out;
 }
 .frame-3 .teacher{
   width: 16%;
@@ -329,7 +329,7 @@
   top: -4%;
   position: absolute;
   transform-origin: bottom center;
-  /* animation: joe-head 5s infinite ease; */
+  /* animation: mo-head 5s infinite ease; */
 }
 .frame-3 .teacher-eyes{
   width: 54%;
@@ -424,21 +424,21 @@
     transform: rotateZ(360deg);
   }
 }
-@keyframes joe-eyes {
+@keyframes mo-eyes {
   0% {
-      background-image: url("../img/frame3/ojos-joe-1.png");
+      background-image: url("../img/frame3/ojos-mo-1.png");
   }
   5% {
-      background-image: url("../img/frame3/ojos-joe-2.png");
+      background-image: url("../img/frame3/ojos-mo-2.png");
   }
   10%{
-    background-image: url("../img/frame3/ojos-joe-3.png");
+    background-image: url("../img/frame3/ojos-mo-3.png");
   }
   100% {
-    background-image: url("../img/frame3/ojos-joe-3.png");
+    background-image: url("../img/frame3/ojos-mo-3.png");
   }
 }
-@keyframes joe-head{
+@keyframes mo-head{
   0%{ transform: rotate(0deg);}
   5% { transform: rotate(3deg);}
   10% { transform: rotate(0deg);}
@@ -456,7 +456,7 @@
   10% { transform: rotate(0deg);}
   100% { transform: rotate(0deg);}
 }
-@keyframes joe-breathing{
+@keyframes mo-breathing{
   0%{ transform: scale(1);}
   25% { transform: scale(1.02);}
   60% { transform: scale(1);}

@@ -165,7 +165,7 @@
   transform-origin: center;
   animation: father-eye-pupils 8s infinite ease;
 }
-.frame-1 .tomy{
+.frame-1 .mo{
   width: 23.5%;
   height: 38%;
   right: 9%;
@@ -173,60 +173,60 @@
   top: auto;
   position: absolute;
 }
-.frame-1 .tomy img:nth-child(1){
-  width: 65%;
+.frame-1 .mo img:nth-child(1){
+  width: 37%;
   height: auto;
-  left: 18%;
-  bottom: 0%;
+  left: 30%;
+  bottom: 14%;
   top: auto;
   position: absolute;
 }
-.tomy-head{
+.mo-head{
   width: 100%;
   height: 46%;
-  right: -1%;
-  top: -3%;
+  right: 0%;
+  top: 11%;
   position: absolute;
   transform-origin: bottom center;
-  animation: tomy-head 5s infinite ease;
+  animation: mo-head 5s infinite ease;
 }
-.tomy .tomy-head img:nth-child(1){
-  width: 90%;
+.mo .mo-head img:nth-child(1){
+  width: 100%;
   height: auto;
   right: 0%;
   left: auto;
   top: 0;
   bottom: auto;
 }
-.tomy-body{
-  width: 82%;
+.mo-body{
+  width: 59%;
   height: 50%;
-  right: 13%;
+  right: 23%;
   bottom: auto;
-  top: 22%;
+  top: 16%;
   position: absolute;
   transform-origin: bottom center;
-  animation: tomy-breathing 5s infinite ease;
+  animation: mo-breathing 5s infinite ease;
 }
-.tomy .tomy-body img:nth-child(1){
+.mo .mo-body img:nth-child(1){
   width: 25%;
   height: auto;
-  right: 14%;
+  right: 1%;
   left: auto;
-  top: 46.8%;
+  top: 70.8%;
   transform-origin: top;
   animation: Shoulders-1 5s infinite ease;
 }
-.tomy .tomy-body img:nth-child(2){
-  width: 25%;
+.mo .mo-body img:nth-child(2){
+  width: 32%;
   height: auto;
-  left: 18%;
-  top: 44.8%;
+  left: 0%;
+  top: 69.8%;
   right: auto;
   transform-origin: top;
   animation: Shoulders-2 5s infinite ease;
 }
-.tomy .tomy-body img:nth-child(3){
+.mo .mo-body img:nth-child(3){
   width: 47%;
   height: auto;
   left: 29%;
@@ -234,21 +234,21 @@
   right: auto;
   top: auto;
   /* transform-origin: bottom center;
-  animation: tomy-breathing 5s infinite ease; */
+  animation: mo-breathing 5s infinite ease; */
 }
-.frame-1 .tomy-eyes{
+.frame-1 .mo-eyes{
   width: 43%;
   height: 27%;
-  top: 55%;
-  right: 36%;
+  top: 46%;
+  right: 30%;
   left: auto;
   position: absolute;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  animation: tomy-eyes 2s infinite alternate ease-out;
+  animation: mo-eyes 2s infinite alternate ease-out;
 }
 
-@keyframes tomy-head{
+@keyframes mo-head{
   0%{ transform: rotate(0deg);}
   5% { transform: rotate(3deg);}
   10% { transform: rotate(0deg);}
@@ -266,7 +266,7 @@
   10% { transform: rotate(0deg);}
   100% { transform: rotate(0deg);}
 }
-@keyframes tomy-breathing{
+@keyframes mo-breathing{
   0%{ transform: scale(1);}
   25% { transform: scale(1.02);}
   60% { transform: scale(1);}
@@ -386,17 +386,17 @@
       background-image: url(../img/frame4y5/boca_mama1.png);
   }
 }
-@keyframes tomy-eyes {
+@keyframes mo-eyes {
   0% {
-      background-image: url("../img/frame3/ojos-tomy-1.png");
+      background-image: url("../img/frame3/ojos-mo-1.png");
   }
   5% {
-      background-image: url("../img/frame3/ojos-tomy-2.png");
+      background-image: url("../img/frame3/ojos-mo-2.png");
   }
   10%{
-    background-image: url("../img/frame3/ojos-tomy-3.png");
+    background-image: url("../img/frame3/ojos-mo-3.png");
   }
   100% {
-    background-image: url("../img/frame3/ojos-tomy-3.png");
+    background-image: url("../img/frame3/ojos-mo-3.png");
   }
 }

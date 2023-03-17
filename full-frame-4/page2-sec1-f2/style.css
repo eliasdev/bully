@@ -171,40 +171,40 @@
   transform-origin: center;
   animation: father-eye-pupils 8s infinite ease;
 }
-.frame-2 .joe{
-  width: 23.5%;
-  height: 38%;
-  right: 9%;
+.frame-2 .mo{
+  width: 30.5%;
+  height: 43%;
+  right: 7%;
   bottom: 2%;
   top: auto;
   position: absolute;
 }
-.frame-2 .joe img:nth-child(1){
-  width: 65%;
+.frame-2 .mo img:nth-child(1){
+  width: 42%;
   height: auto;
-  left: 18%;
-  bottom: 0%;
+  left: 26%;
+  bottom: 1%;
   top: auto;
   position: absolute;
 }
-.joe-head{
+.mo-head{
   width: 100%;
   height: 46%;
-  right: -1%;
-  top: -3%;
+  right: 3%;
+  top: 3%;
   position: absolute;
   transform-origin: bottom center;
-  animation: joe-head 5s infinite ease;
+  animation: mo-head 5s infinite ease;
 }
-.joe .joe-head img:nth-child(1){
-  width: 90%;
+.mo .mo-head img:nth-child(1){
+  width: 100%;
   height: auto;
   right: 0%;
   left: auto;
   top: 0;
   bottom: auto;
 }
-.joe-body{
+.mo-body{
   width: 82%;
   height: 50%;
   right: 13%;
@@ -212,27 +212,27 @@
   top: 22%;
   position: absolute;
   transform-origin: bottom center;
-  animation: joe-breathing 5s infinite ease;
+  animation: mo-breathing 5s infinite ease;
 }
-.joe .joe-body img:nth-child(1){
-  width: 25%;
+.mo .mo-body img:nth-child(1){
+  width: 23%;
   height: auto;
-  right: 14%;
+  right: 6%;
   left: auto;
-  top: 46.8%;
+  top: 53.8%;
   transform-origin: top;
   animation: Shoulders-1 5s infinite ease;
 }
-.joe .joe-body img:nth-child(2){
-  width: 25%;
+.mo .mo-body img:nth-child(2){
+  width: 28%;
   height: auto;
-  left: 18%;
-  top: 44.8%;
+  left: 7%;
+  top: 53.8%;
   right: auto;
   transform-origin: top;
   animation: Shoulders-2 5s infinite ease;
 }
-.joe .joe-body img:nth-child(3){
+.mo .mo-body img:nth-child(3){
   width: 47%;
   height: auto;
   left: 29%;
@@ -240,21 +240,21 @@
   right: auto;
   top: auto;
   /* transform-origin: bottom center;
-  animation: joe-breathing 5s infinite ease; */
+  animation: mo-breathing 5s infinite ease; */
 }
-.frame-2 .joe-eyes{
-  width: 43%;
+.frame-2 .mo-eyes{
+  width: 46%;
   height: 27%;
-  top: 55%;
-  right: 36%;
+  top: 54%;
+  right: 28%;
   left: auto;
   position: absolute;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  animation: joe-eyes 2s infinite alternate ease-out;
+  animation: mo-eyes 2s infinite alternate ease-out;
 }
 
-@keyframes joe-head{
+@keyframes mo-head{
   0%{ transform: rotate(0deg);}
   5% { transform: rotate(3deg);}
   10% { transform: rotate(0deg);}
@@ -272,7 +272,7 @@
   10% { transform: rotate(0deg);}
   100% { transform: rotate(0deg);}
 }
-@keyframes joe-breathing{
+@keyframes mo-breathing{
   0%{ transform: scale(1);}
   25% { transform: scale(1.02);}
   60% { transform: scale(1);}
@@ -392,17 +392,17 @@
       background-image: url(../img/frame4y5/boca_mama1.png);
   }
 }
-@keyframes joe-eyes {
+@keyframes mo-eyes {
   0% {
-      background-image: url("../img/frame3/ojos-joe-1.png");
+      background-image: url("../img/frame3/ojos-mo-1.png");
   }
   5% {
-      background-image: url("../img/frame3/ojos-joe-2.png");
+      background-image: url("../img/frame3/ojos-mo-2.png");
   }
   10%{
-    background-image: url("../img/frame3/ojos-joe-3.png");
+    background-image: url("../img/frame3/ojos-mo-3.png");
   }
   100% {
-    background-image: url("../img/frame3/ojos-joe-3.png");
+    background-image: url("../img/frame3/ojos-mo-3.png");
   }
 }
